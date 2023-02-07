@@ -1,0 +1,48 @@
+@import "mixins";
+
+$primary-color: #ff7f00;
+$second-color: #79cf00;
+$third-color: #141414;
+
+// h2 {
+// 	color: $primary-color;
+// 	@include lg {
+// 		color: $secondary-color;
+// 	}
+// }
+
+// .image {
+// 	height: 100% !important;
+// }
+nav {
+	.active {
+		color: $primary-color;
+	}
+}
+
+.borderBottomCustom {
+	position: relative;
+	padding: 15px 0px;
+	// display: block;
+	&:hover {
+		// opacity: 1;
+		&:before {
+			width: 97%;
+		}
+	}
+	&:before {
+		transition: 600ms;
+		height: 2px;
+		content: "";
+		position: absolute;
+		background-color: $primary-color;
+		width: 0%;
+		bottom: 10px;
+	}
+
+	.active & {
+		&:before {
+			width: 100%;
+		}
+	}
+}
