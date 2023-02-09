@@ -48,7 +48,7 @@ const NavBar = () => {
 							</li>
 						</Link>
 						<Link
-							href="/about"
+							href="/services"
 							className={currentRoute === "/services" ? "active" : "nonActive"}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
@@ -56,7 +56,7 @@ const NavBar = () => {
 							</li>
 						</Link>
 						<Link
-							href="/contact"
+							href="/tarifs"
 							className={currentRoute === "/tarifs" ? "active" : "nonActive"}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
