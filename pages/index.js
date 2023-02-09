@@ -5,6 +5,8 @@ import { Inter } from "@next/font/google"
 import NavBar from "../components/NavBar"
 import Intro from "../components/Intro"
 import RightBar from "@/components/RightBar"
+import Galery from "@/components/Galery"
+import ContentBlock from "@/components/ContentBlock"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,14 +26,8 @@ export default function Home() {
 			<main>
 				<RightBar />
 				<Intro />
-				{/* <div className="flex justify-items-center bg-white w-full md:bottom-0 md:absolute md:h-36"> */}
-				<div className="w-full flex  justify-center items-center flex-col md:flex-row">
-					<div className="w-full h-[150px] bg-slate-500 md:w-[25%] md:h-[350px]"></div>
-					<div className="w-full h-[150px] bg-slate-600 md:w-[25%] md:h-[350px]"></div>
-					<div className="w-full h-[150px] bg-slate-500 md:w-[25%] md:h-[350px]"></div>
-					<div className="w-full h-[150px] bg-slate-600 md:w-[25%] md:h-[350px]"></div>
-				</div>
-				{/* </div> */}
+				<Galery />
+				<ContentBlock />
 			</main>
 		</>
 	)

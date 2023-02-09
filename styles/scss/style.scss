@@ -1,7 +1,7 @@
 @import "mixins";
 
 $primary-color: #ff7f00;
-$second-color: #79cf00;
+$secondary-color: #79cf00;
 $third-color: #141414;
 
 // h2 {
@@ -43,6 +43,27 @@ nav {
 	.active & {
 		&:before {
 			width: 100%;
+		}
+	}
+}
+.title {
+	display: inline-block;
+	position: relative;
+	&:before {
+		height: 4px;
+		content: "";
+		position: absolute;
+		width: 65%;
+		bottom: -7px;
+	}
+	&--orange {
+		&:before {
+			background-color: $primary-color;
+		}
+	}
+	&--green {
+		&:before {
+			background-color: $secondary-color;
 		}
 	}
 }

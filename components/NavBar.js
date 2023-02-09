@@ -6,7 +6,7 @@ import { useRouter } from "next/router"
 import React, { useState } from "react"
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai"
 import { ImFacebook } from "react-icons/im"
-import { FaGithub, FaLinkedinIn } from "react-icons/fa"
+
 import logo from "../public/logo.png"
 import GB from "country-flag-icons/react/3x2/GB"
 
