@@ -32,9 +32,8 @@ const NavBar = () => {
 			<div className="container mx-auto flex items-center w-full h-full px-5 2xl:px-16 justify-between font-OpenSans">
 				<Image
 					src={logo}
-					width="150"
 					alt="Logo Domaine Aventurier"
-					className=" mt-24"
+					className=" mt-24 w-[130px] md:w-[150px]"
 				></Image>
 
 				<div>

@@ -29,9 +29,9 @@ export default function Home() {
 				<Galery />
 				<ContentBlock />
 				<section>
-					<div className="flex flex-wrap">
-						<div className="w-[50%] bg-slate-400 h-60"></div>
-						<div className="w-[50%] bg-slate-500 h-60"></div>
+					<div className="flex flex-col flex-wrap  md:flex-row">
+						<div className="flex-auto  bg-slate-400 h-80"></div>
+						<div className="flex-auto  bg-slate-500 h-80"></div>
 					</div>
 				</section>
 			</main>
