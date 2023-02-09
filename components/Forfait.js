@@ -1,0 +1,39 @@
+import React from "react"
+import Image from "next/image"
+import Link from "next/link"
+import { RiArrowRightSLine } from "react-icons/ri"
+const Forfait = ({ forfaitImg, forfaitTitle }) => {
+	return (
+		<div className="relative rounded-xl flex-1 bg-slate-100">
+			<div className="flex flex-row justify-center pb-12 gap-5 items-center h-[190px] md:pb-0 md:h-[245px] md:flex-col">
+				<Image
+					src={forfaitImg}
+					alt="forfait chevreuil"
+					className="w-[80px] xl:w-[110px]"
+				></Image>
+				<h3 className=" text-center text-md font-bold leading-6 xl:text-xl">
+					Forfait
+					<br />
+					{forfaitTitle}
+				</h3>
+			</div>
+
+			<Link
+				href="/tarifs"
+				className="absolute bottom-0  w-full  flex justify-center items-center flex-row rounded-b-xl"
+			>
+				<span className="w-[75%] bg-[#79cf00] h-12 rounded-bl-xl text-center font-regular text-sm text-white flex justify-center items-center lg:w-[80%] xl:text-lg">
+					En savoir +
+				</span>
+				<span className="w-[25%] bg-[#ff7f00] h-12 text-center rounded-br-xl text-xl font-bold text-white flex justify-end items-center lg:w-[20%]">
+					<RiArrowRightSLine
+						size={35}
+						className="inline-block mr-2 mt-[-3px]"
+					/>
+				</span>
+			</Link>
+		</div>
+	)
+}
+
+export default Forfait

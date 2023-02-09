@@ -10,7 +10,7 @@ import icon7 from "../public/icones/wifi.png"
 
 const RightBar = () => {
 	return (
-		<section className="absolute z-[50] right-0 top-20 flex flex-col md:top-[20%]">
+		<section className="absolute z-[50] right-0 top-52 flex flex-row md:top-[20%] md:flex-col">
 			<div className="h-11 w-11  bg-white flex justify-center items-center lg:h-14 lg:w-14">
 				<Image src={icon1} alt="" className="w-[25px] lg:w-[35px]"></Image>
 			</div>

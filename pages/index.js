@@ -28,6 +28,12 @@ export default function Home() {
 				<Intro />
 				<Galery />
 				<ContentBlock />
+				<section>
+					<div className="flex flex-wrap">
+						<div className="w-[50%] bg-slate-400 h-60"></div>
+						<div className="w-[50%] bg-slate-500 h-60"></div>
+					</div>
+				</section>
 			</main>
 		</>
 	)
