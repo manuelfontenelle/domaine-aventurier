@@ -21,14 +21,11 @@ const Forfait = ({ forfaitImg, forfaitTitle }) => {
 				href="/tarifs"
 				className="absolute bottom-0  w-full  flex justify-center items-center flex-row rounded-b-xl"
 			>
-				<span className="w-[75%] bg-[#79cf00] h-10 rounded-bl-xl text-center font-regular text-sm text-white flex justify-center items-center lg:h-12 lg:w-[80%] xl:text-lg">
+				<span className="w-[80%] bg-[#79cf00] h-10 rounded-bl-xl text-center font-regular text-sm text-white flex justify-center items-center lg:h-12 lg:w-[80%] xl:text-lg">
 					En savoir +
 				</span>
-				<span className="w-[25%] bg-[#ff7f00] h-10 text-center rounded-br-xl text-xl font-bold text-white flex justify-center md:justify-end items-center lg:h-12 lg:w-[20%] hover:bg-[#141414]">
-					<RiArrowRightSLine
-						size={35}
-						className="inline-block mr-2 mt-[-3px]"
-					/>
+				<span className="w-[20%] bg-[#ff7f00] h-10 text-center rounded-br-xl text-xl font-bold text-white flex justify-center  items-center lg:h-12 lg:w-[20%] hover:bg-[#141414]">
+					<RiArrowRightSLine size={35} className="inline-block " />
 				</span>
 			</Link>
 		</div>

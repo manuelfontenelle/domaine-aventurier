@@ -61,9 +61,19 @@ nav {
 			background-color: $primary-color;
 		}
 	}
+	&--orangeSmall {
+		&:before {
+			width: 15%;
+			background-color: $primary-color;
+		}
+	}
 	&--green {
 		&:before {
 			background-color: $secondary-color;
 		}
 	}
+}
+
+.gradiant {
+	background: linear-gradient(90deg, white 50%, #79cf00 50%);
 }
