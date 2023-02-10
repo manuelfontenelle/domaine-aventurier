@@ -33,7 +33,7 @@ export default function Home() {
 				<ContentBlock />
 
 				<div className="gradiant">
-					<section className=" flex flex-col mx-auto lg:container lg:flex-row 2xl:px-16">
+					<section className=" flex flex-col mx-auto sm:container lg:flex-row 2xl:px-16">
 						<div className="  py-10  bg-white px-5 lg:w-[50%]  ">
 							<div className="md:pr-28">
 								<h2 className="font-OpenSans font-black text-xl uppercase title title--orangeSmall">
