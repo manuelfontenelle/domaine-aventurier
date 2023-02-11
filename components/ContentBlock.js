@@ -15,7 +15,7 @@ const ContentBlock = () => {
 			<div className=" container relative  md:h-[1250px] lg:h-[1050px] ">
 				<div className=" xl:pr-8 md:absolute md:ml-[39%]   2xl:ml-[37%] ">
 					<div className="pt-10 ">
-						<h2 className="font-OpenSans font-black text-lg uppercase title title--orange">
+						<h2 className="font-OpenSans font-black text-xl uppercase title title--orange">
 							Qui sommes-nous ?
 						</h2>
 
@@ -50,7 +50,7 @@ const ContentBlock = () => {
 						</div>
 					</div>
 					<div className="pt-10">
-						<h2 className="font-OpenSans font-black text-lg uppercase title title--green">
+						<h2 className="font-OpenSans font-black text-xl uppercase title title--green">
 							Nos forfaits :
 						</h2>
 						<div className="flex flex-col my-10 gap-12 md:h-[300px] md:flex-row">
