@@ -10,9 +10,9 @@ const Footer = () => {
 	// }, [])
 
 	return (
-		<footer className="bg-black">
+		<footer className="bg-black  bottom-0 h-12 w-full">
 			<div className="container mx-auto px-5 2xl:px-16">
-				<div className=" flex justify-between items-center w-full bottom-0 h-12 bg-black ">
+				<div className=" flex justify-between items-center w-full bottom-0 h-12  ">
 					<div className=" text-xs uppercase  py-1 font-semibold text-white">
 						&copy; copyright {getYear()} - Domaine Aventurier
 					</div>
