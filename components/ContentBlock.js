@@ -48,7 +48,7 @@ const ContentBlock = () => {
 
 				<div className="pt-10">
 					<h2 className="font-OpenSans font-black text-xl uppercase title title--green">
-						Nos forfaits
+						Nos forfaits :
 					</h2>
 					<div className="flex flex-col my-10 gap-5 md:h-[300px] md:flex-row">
 						<Forfait forfaitImg={forfait1} forfaitTitle={"Chevreuil"} />
