@@ -75,5 +75,7 @@ nav {
 }
 
 .gradiant {
-	background: linear-gradient(90deg, white 50%, #79cf00 50%);
+	@media only screen and (min-width: 1024px) {
+		background: linear-gradient(90deg, white 50%, #79cf00 50%);
+	}
 }

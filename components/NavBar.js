@@ -29,7 +29,7 @@ const NavBar = () => {
 			className="fixed w-full h-20  z-[100]  ease-in duration-300 bg-[#141414] shadow-xl"
 			id="navbar"
 		>
-			<div className="container mx-auto flex items-center w-full h-full px-5 2xl:px-16 justify-between font-OpenSans">
+			<div className="container flex items-center w-full h-full justify-between font-OpenSans">
 				<Image
 					src={logo}
 					alt="Logo Domaine Aventurier"

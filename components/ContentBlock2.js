@@ -8,8 +8,8 @@ import logo from "../public/logo.png"
 const ContentBlock2 = () => {
 	return (
 		<section className="gradiant">
-			<div className=" flex flex-col mx-auto sm:container lg:flex-row 2xl:px-16">
-				<div className="  py-10 lg:pr-20 bg-white px-5 lg:w-[50%]  ">
+			<div className=" flex flex-col  container lg:flex-row ">
+				<div className="  py-10 lg:pr-20 bg-white  lg:w-[50%]  ">
 					<div className="md:pr-28">
 						<h2 className="font-OpenSans font-black text-lg uppercase title title--orangeSmall">
 							Réservez votre séjour et profitez d’une expérience inoubliable !

@@ -18,7 +18,7 @@ const Intro = () => {
 				<span className="mt-2 h-1.5 w-20 bg-white"></span>
 			</div>
 			<div className="flex justify-items-center bg-white w-full md:bottom-0 md:absolute md:h-36 ">
-				<div className="container mx-auto w-full flex-wrap flex justify-between gap-5 py-5 px-5 items-center  md:flex-wrap md:justify-between 2xl:px-16">
+				<div className="container  w-full flex-wrap flex justify-between gap-5 py-5  items-center  md:flex-wrap md:justify-between ">
 					<Image
 						src={partenaire1}
 						alt="logo_quebequad-fédération québécoise des clubs quads"
