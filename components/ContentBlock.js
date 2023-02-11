@@ -15,11 +15,11 @@ const ContentBlock = () => {
 			<div className=" md:container mx-auto relative  xl:px-0  md:h-[1250px] lg:h-[1050px] ">
 				<div className="px-5 2xl:px-16 md:absolute md:ml-[40%] xl:ml-[34%] ">
 					<div className="pt-10 ">
-						<h2 className="font-OpenSans font-black text-xl uppercase title title--orange">
+						<h2 className="font-OpenSans font-black text-lg uppercase title title--orange">
 							Qui sommes-nous ?
 						</h2>
 
-						<p className="text-md leading-6  md:text-justify mt-7 xl:leading-8 xl:text-lg">
+						<p className="text-md leading-6  md:text-justify mt-7 xl:leading-7 xl:text-lg">
 							Site renommé pour la chasse et la pêche, le Domaine Aventurier est
 							un endroit paisible pour les vacances en famille ou entre amis.
 							<br />
@@ -50,10 +50,10 @@ const ContentBlock = () => {
 						</div>
 					</div>
 					<div className="pt-10">
-						<h2 className="font-OpenSans font-black text-xl uppercase title title--green">
+						<h2 className="font-OpenSans font-black text-lg uppercase title title--green">
 							Nos forfaits :
 						</h2>
-						<div className="flex flex-col my-10 gap-5 md:h-[300px] md:flex-row">
+						<div className="flex flex-col my-10 gap-12 md:h-[300px] md:flex-row">
 							<Forfait forfaitImg={forfait1} forfaitTitle={"Chevreuil"} />
 							<Forfait forfaitImg={forfait2} forfaitTitle={"Dindon"} />
 							<Forfait forfaitImg={forfait3} forfaitTitle={"Ours"} />

@@ -48,7 +48,7 @@ export default function Home() {
 						<div className="md:container mx-auto relative py-10  lg:py-0  lg:h-[500px]   ">
 							<div className="lg:absolute flex justify-end  flex-col  pb-0 bg-white lg:pb-10 lg:ml-[68%]  lg:h-[500px] px-5 2xl:px-16 ">
 								<div className="">
-									<h2 className="font-OpenSans font-black text-xl uppercase title">
+									<h2 className="font-OpenSans font-black text-lg uppercase title">
 										Directions :
 									</h2>
 								</div>

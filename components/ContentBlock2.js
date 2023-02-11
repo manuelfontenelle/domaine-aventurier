@@ -9,9 +9,9 @@ const ContentBlock2 = () => {
 	return (
 		<section className="gradiant">
 			<div className=" flex flex-col mx-auto sm:container lg:flex-row 2xl:px-16">
-				<div className="  py-10  bg-white px-5 lg:w-[50%]  ">
+				<div className="  py-10 lg:pr-20 bg-white px-5 lg:w-[50%]  ">
 					<div className="md:pr-28">
-						<h2 className="font-OpenSans font-black text-xl uppercase title title--orangeSmall">
+						<h2 className="font-OpenSans font-black text-lg uppercase title title--orangeSmall">
 							Réservez votre séjour et profitez d’une expérience inoubliable !
 						</h2>
 					</div>
@@ -35,7 +35,7 @@ const ContentBlock2 = () => {
 								alt=""
 								className="w-[35px] lg:w-[45px] mr-3 pt-1"
 							></Image>
-							<p className="font-OpenSans text-base font-bold text-white md:text-xl ">
+							<p className="font-OpenSans text-base font-bold text-white md:text-lg ">
 								Domaine Aventurier Inc.
 								<br />
 								131 Chemin du Poisson Blanc <br />
@@ -48,7 +48,7 @@ const ContentBlock2 = () => {
 								alt=""
 								className="w-[35px] lg:w-[45px] mr-3 mb-[-12px]"
 							></Image>
-							<p className="font-OpenSans font-bold text-white text-base md:text-xl  ">
+							<p className="font-OpenSans font-bold text-white text-base md:text-lg  ">
 								(514) 518-2643
 							</p>
 						</div>
@@ -57,7 +57,7 @@ const ContentBlock2 = () => {
 						<Image
 							src={logo}
 							alt="Logo Domaine Aventurier"
-							className="w-[100px] right-0 absolute  mt-[-30px] sm:mt-[-40px] sm:w-[130px] md:w-[150px] lg:w-[280px] z-20 lg:mt-[-10px] mr-5"
+							className="w-[120px] right-0 absolute  mt-[-30px] sm:mt-[-40px] sm:w-[150px] md:w-[150px] lg:w-[280px] z-20 lg:mt-[-10px] mr-5"
 						></Image>
 						<span className="left-0 bottom-16 h-16 lg:w-[80%] bg-white absolute"></span>
 					</div>

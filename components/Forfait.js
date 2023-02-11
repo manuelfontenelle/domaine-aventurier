@@ -9,7 +9,7 @@ const Forfait = ({ forfaitImg, forfaitTitle }) => {
 				<Image
 					src={forfaitImg}
 					alt="forfait chevreuil"
-					className="w-[80px] xl:w-[110px]"
+					className="w-[70px] xl:w-[90px]"
 				></Image>
 				<h3 className=" text-left  text-md font-bold leading-7 xl:text-center xl:text-lg">
 					Forfait
