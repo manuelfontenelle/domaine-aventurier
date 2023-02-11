@@ -4,14 +4,14 @@ import Link from "next/link"
 import { RiArrowRightSLine } from "react-icons/ri"
 const Forfait = ({ forfaitImg, forfaitTitle }) => {
 	return (
-		<div className="relative rounded-xl flex-1  bg-slate-100  ">
+		<div className="relative rounded-xl flex-1 border border-slate-200">
 			<div className="flex flex-row justify-center pb-10 gap-5 items-center h-[170px] md:pb-0 md:h-[255px] md:flex-col">
 				<Image
 					src={forfaitImg}
 					alt="forfait chevreuil"
 					className="w-[70px] xl:w-[90px]"
 				></Image>
-				<h3 className=" text-left  text-md font-bold leading-7 xl:text-center xl:text-lg">
+				<h3 className=" text-left text-md font-bold leading-7 xl:text-center xl:text-lg">
 					Forfait
 					<span className="block mt-[-6px]"> {forfaitTitle}</span>
 				</h3>
