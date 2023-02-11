@@ -13,7 +13,7 @@ const ContentBlock = () => {
 		<section className="flex flex-wrap   ">
 			<div className=" bg-slate-200 h-80 w-full md:absolute md:left-0 md:h-[1250px] lg:h-[1050px] md:w-[39%] "></div>
 			<div className=" md:container mx-auto relative  xl:px-0  md:h-[1250px] lg:h-[1050px] ">
-				<div className="px-5 2xl:pr-16 md:absolute md:ml-[40%] xl:ml-[38%]">
+				<div className="px-5 2xl:px-16 md:absolute md:ml-[40%] xl:ml-[34%] ">
 					<div className="pt-10 ">
 						<h2 className="font-OpenSans font-black text-xl uppercase title title--orange">
 							Qui sommes-nous ?
