@@ -18,7 +18,7 @@ const Footer = () => {
 					</div>
 					<Link href="/" className="">
 						<span className=" text-sm   text-white hover:text-[#4267B2]">
-							<ImFacebook size={25} />
+							<ImFacebook size={18} />
 						</span>
 					</Link>
 				</div>
