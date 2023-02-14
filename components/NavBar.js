@@ -63,18 +63,22 @@ const NavBar = () => {
 							</li>
 						</Link>
 						<Link
-							href="/career"
+							href="/contact"
 							className={currentRoute === "/contact" ? "active" : "nonActive"}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
 								Contact
 							</li>
 						</Link>
-						<Link href="/" className="">
+						<a
+							target="_blank"
+							href="https://www.facebook.com/groups/www.domaineaventurier"
+							className=""
+						>
 							<li className="ml-10 text-sm py-3  text-white hover:text-[#4267B2]">
 								<ImFacebook size={25} />
 							</li>
-						</Link>
+						</a>
 						<Link href="/" className="">
 							<li className="ml-10 text-sm py-4">
 								<GB title="United States" className=" h-4" />
@@ -130,11 +134,14 @@ const NavBar = () => {
 							<Link href="/contact">
 								<li className="py-4 text-md">Contact</li>
 							</Link>
-							<Link href="/">
+							<a
+								target="_blank"
+								href="https://www.facebook.com/groups/www.domaineaventurier"
+							>
 								<li className="py-4 text-md">
 									<ImFacebook size={25} />
 								</li>
-							</Link>
+							</a>
 							<Link href="/">
 								<li className="py-4 text-md">
 									<GB title="United States" className=" h-4" />

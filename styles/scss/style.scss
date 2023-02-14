@@ -61,6 +61,13 @@ nav {
 			background-color: $primary-color;
 		}
 	}
+	&--orangeBig {
+		&:before {
+			background-color: $primary-color;
+			height: 8px;
+			bottom: -15px;
+		}
+	}
 	&--orangeSmall {
 		&:before {
 			width: 15%;
