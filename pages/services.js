@@ -3,9 +3,83 @@ import Head from "next/head"
 import Image from "next/image"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
+import ImgLeft from "@/components/ImgLeft"
+import ImgRight from "@/components/ImgRight"
 import introPageImg from "../public/intro_bg.jpg"
-import icon1 from "../public/icones/fishing_orange.png"
-import icon2 from "../public/icones/hunt_orange.png"
+import iconPeche from "../public/icones/fishing_orange.png"
+import iconChasse from "../public/icones/hunt_orange.png"
+import iconChalet from "../public/icones/bed_orange.png"
+import iconCamping from "../public/icones/camping_orange.png"
+import iconVtt from "../public/icones/vtt_orange.png"
+const textPeche = (
+	<p>
+		Situé sur une terre magnifique bordant la rivière du Lièvre, le réservoir
+		aux sables, ainsi que l’immense réservoir du Poisson Blanc, d’une distance
+		de 29 km et parsemée de 148 îles, notre havre de paix est également entouré
+		de 250 lacs. <br />
+		<br />
+		La pêche y est en abondance et de choix (doré, brochet, truite grise,
+		achigan, ouananiche, perchaude, etc.).
+	</p>
+)
+
+const textChasse = (
+	<p>
+		La très forte densité de Cerfs de Virginie dans la zone 10 Ouest profite
+		considérablement aux adeptes de la chasse.
+		<br />
+		<br /> Les chasseurs pourront bénéficier d’un territoire exclusif et non
+		exclusif (Terres de la Couronne) à proximité de nos services. <br />
+		<br />
+		Que ce soit pour la chasse à l’arc, la carabine, poudre noire ou bien
+		l’arbalète nous pouvons vous offrir le service de mirador et d’appâts.
+		<br />
+		<br />
+		Contactez-nous pour connaître les modalités & conditions.
+	</p>
+)
+
+const textChalet = (
+	<div>
+		<p>
+			Nos chalets rustiques vous charmeront avec leurs vues superbes sur la
+			Rivière du Lièvre et leurs prix de location peu dispendieux. Ils sont tous
+			meublés et la vaisselle est incluse.
+			<br />
+			<br /> Vous devez apporter:
+		</p>
+
+		<ul>
+			<li>- Literie </li>
+			<li>- Serviettes de bain</li>
+			<li>- Savon </li>
+			<li>- Papier de toilette</li>
+			<li>- Linges & savon à vaisselle</li>
+		</ul>
+	</div>
+)
+const textCamping = (
+	<p>
+		Profitez de notre site pourvu d’arbres matures, pour vous offrir la
+		tranquillité ainsi que les joies du plein air. <br />
+		<br />
+		La majorité de nos terrains comprennent l’eau, l’électricité et les égouts.
+		Nous possédons également sur notre site un bloc sanitaire avec douches,
+		toilettes (papier non inclus) et buanderie.
+	</p>
+)
+const textVtt = (
+	<p>
+		Les aventuriers de V.T.T. pourront bénéficier de 200 km de sentiers 4
+		saisons entretenus remarquablement par le club local de la municipalité
+		membre de la Fédération Québécoise des Clubs Quads. <br />
+		<br />
+		Venez saisir les vues imprenables du sommet de la Montagne du Diable ainsi
+		que les nombreux panoramas de montagnes & lacs, il ne faut surtout pas
+		manquer les merveilleuses richesses colorées que la saison d’automne nous
+		procure.
+	</p>
+)
 
 const services = () => {
 	return (
@@ -33,76 +107,37 @@ const services = () => {
 					</div>
 				</section>
 
-				<section className="relative  h-[500px]">
-					<div className="container relative ">
-						<div className="w-[45%] absolute flex justify-center flex-col h-[500px]">
-							<div className="flex flex-row justify-start items-center mb-5">
-								<div className="">
-									<Image
-										src={icon1}
-										alt=""
-										className="w-[25px] lg:w-[35px]"
-									></Image>
-								</div>
-								<h2 className="font-bold text-xl ml-5 ">Pêche</h2>
-							</div>
-							<p className="text-lg">
-								Situé sur une terre magnifique bordant la rivière du Lièvre, le
-								réservoir aux sables, ainsi que l’immense réservoir du Poisson
-								Blanc, d’une distance de 29 km et parsemée de 148 îles, notre
-								havre de paix est également entouré de 250 lacs. <br />
-								<br />
-								La pêche y est en abondance et de choix (doré, brochet, truite
-								grise, achigan, ouananiche, perchaude, etc.).
-							</p>
-						</div>
-					</div>
-					<div className="w-[50%] right-0 absolute h-[500px]">
-						<Image
-							className=" block w-full object-cover h-[100%]"
-							src={introPageImg}
-							alt="Pêche / nos services"
-						/>
-					</div>
-				</section>
-
-				<section className="relative  h-[500px]">
-					<div className="container relative ">
-						<div className="left-[55%] absolute flex justify-center flex-col h-[500px]">
-							<div className="flex flex-row justify-start items-center mb-5">
-								<div className="">
-									<Image
-										src={icon2}
-										alt=""
-										className="w-[25px] lg:w-[35px]"
-									></Image>
-								</div>
-								<h2 className="font-bold text-xl ml-5 ">Chasse</h2>
-							</div>
-							<p className="text-lg">
-								La très forte densité de Cerfs de Virginie dans la zone 10 Ouest
-								profite considérablement aux adeptes de la chasse.
-								<br />
-								<br /> Les chasseurs pourront bénéficier d’un territoire
-								exclusif et non exclusif (Terres de la Couronne) à proximité de
-								nos services. <br />
-								<br />
-								Que ce soit pour la chasse à l’arc, la carabine, poudre noire ou
-								bien l’arbalète nous pouvons vous offrir le service de mirador
-								et d’appâts. <br />
-								<br />
-								Contactez-nous pour connaître les modalités & conditions.
-							</p>
-						</div>
-					</div>
-					<div className="w-[50%] left-0 absolute h-[500px]">
-						<Image
-							className=" block w-full object-cover h-[100%]"
-							src={introPageImg}
-							alt="Pêche / nos services"
-						/>
-					</div>
-				</section>
+				<ImgRight
+					icon={iconPeche}
+					introPageImg={introPageImg}
+					text={textPeche}
+					titre={"Pêche"}
+				/>
+				<ImgLeft
+					icon={iconChasse}
+					introPageImg={introPageImg}
+					text={textChasse}
+					titre={"Chasse"}
+				/>
+				<ImgRight
+					icon={iconChalet}
+					introPageImg={introPageImg}
+					text={textChalet}
+					titre={"Chalets"}
+				/>
+				<ImgLeft
+					icon={iconCamping}
+					introPageImg={introPageImg}
+					text={textCamping}
+					titre={"Camping & Caravaning"}
+					sousTitre={"(Saisonnier et Journalier)"}
+				/>
+				<ImgRight
+					icon={iconVtt}
+					introPageImg={introPageImg}
+					text={textVtt}
+					titre={"V.T.T"}
+				/>
 			</main>
 			<Footer />
 		</div>
