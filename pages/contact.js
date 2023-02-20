@@ -23,9 +23,9 @@ const contact = () => {
 				<section className="pt-20">
 					<div className="h-96 relative">
 						<div className="container z-10">
-							<h2 className=" font-OpenSans absolute bottom-10 text-white font-black text-4xl uppercase title title--orangeBig">
+							<h1 className=" font-OpenSans absolute bottom-10 text-white font-black text-4xl uppercase title title--orangeBig">
 								Contact
-							</h2>
+							</h1>
 						</div>
 
 						<Image
@@ -42,7 +42,7 @@ const contact = () => {
 							<div className="flex flex-row justify-start items-start">
 								<Image
 									src={icon1}
-									alt=""
+									alt="Icon map"
 									className="w-[35px] lg:w-[45px] mr-3 pt-1"
 								></Image>
 								<p className="font-OpenSans text-base font-bold text-[#141414] md:text-lg ">
@@ -55,7 +55,7 @@ const contact = () => {
 							<div className="flex flex-row justify-end items-end">
 								<Image
 									src={icon2}
-									alt=""
+									alt="Icon phone"
 									className="w-[35px] lg:w-[45px] mr-3 mb-[-12px]"
 								></Image>
 								<p className="font-OpenSans font-bold text-[#141414] text-base md:text-lg">
