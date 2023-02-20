@@ -18,7 +18,7 @@ const ImgRight = ({ icon, introPageImg, text, titre }) => {
 							<Image
 								src={icon}
 								alt={titre}
-								className="w-[50px] mb-2 md:mb-0  lg:w-[35px]"
+								className="w-[45px] mb-2 md:mb-0  lg:w-[35px]"
 							></Image>
 						</div>
 						<h2 className="font-bold text-xl md:ml-5 ">{titre}</h2>

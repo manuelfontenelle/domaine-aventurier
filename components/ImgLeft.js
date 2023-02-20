@@ -18,11 +18,11 @@ const ImgLeft = ({ icon, introPageImg, text, titre, sousTitre }) => {
 							<Image
 								src={icon}
 								alt={titre}
-								className="w-[50px] mb-2 md:mb-0 lg:w-[35px]"
+								className="w-[45px] mb-2 md:mb-0 lg:w-[35px]"
 							></Image>
 						</div>
 						<h2 className="font-bold text-xl md:ml-5 ">{titre}</h2>
-						<span className="block text-sm font-normal ml-4 mt-1">
+						<span className="block text-sm font-normal md:ml-3 mt-1">
 							{sousTitre}
 						</span>
 					</div>
