@@ -8,7 +8,7 @@ const TarifForfait = ({ icon, titre, sousTitre }) => {
 				<Image
 					src={icon}
 					alt=""
-					className="w-[45px] mb-2 md:mb-0  lg:w-[70px]"
+					className="w-[55px] mb-2 md:mb-0  lg:w-[70px]"
 				></Image>
 				<h2 className="font-bold text-xl uppercase mt-5">{titre}</h2>
 				<span className="font-bold  block text-sm">{sousTitre}</span>
