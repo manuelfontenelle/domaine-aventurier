@@ -178,7 +178,7 @@ const tarifs = () => {
 							<h2 className="font-bold text-xl ml-5 uppercase ">Chalets</h2>
 						</div>
 					</div>
-					<div className="overflow-scroll">
+					<div className="overflow-scroll md:overflow-auto">
 						<table className="border-collapse border border-slate-400 w-full text-left ">
 							<thead className=" bg-slate-100 text-xs md:text-sm uppercase">
 								<tr>
@@ -245,7 +245,7 @@ const tarifs = () => {
 							<h2 className="font-bold text-xl ml-5 uppercase ">Camping</h2>
 						</div>
 					</div>
-					<div className="overflow-scroll">
+					<div className="overflow-scroll md:overflow-auto">
 						<table className="border-collapse border border-slate-400 w-full text-left ">
 							<thead className=" bg-slate-100 text-xs md:text-sm uppercase">
 								<tr>
