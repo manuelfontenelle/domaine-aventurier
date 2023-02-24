@@ -49,12 +49,12 @@ const Formulaire = () => {
 		isDisabled()
 
 		try {
-			const response = await axios.post("http://localhost:5000/form", data)
+			// const response = await axios.post("http://localhost:5000/form", data)
 
-			// const response = await axios.post(
-			// 	"https://nodemailer-domaine-aventurier.herokuapp.com/form",
-			// 	data
-			// )
+			const response = await axios.post(
+				"https://nodemailer-domaine-aventurier.herokuapp.com/form",
+				data
+			)
 
 			if (response.status === 200) {
 				alert("Votre formulaire a bien été envoyé")
