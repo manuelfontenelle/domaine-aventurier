@@ -5,7 +5,7 @@ import { RiArrowRightSLine } from "react-icons/ri"
 const Forfait = ({ forfaitImg, forfaitTitle }) => {
 	return (
 		<div className="relative rounded-xl flex-1 border border-slate-200">
-			<div className="flex flex-row justify-center pb-10 gap-2 items-center h-[140px] md:pb-0 md:h-[150px] md:flex-col">
+			<div className="flex flex-row justify-center pb-10 gap-4 items-center h-[140px] md:gap-2 md:pb-0 md:h-[150px] md:flex-col">
 				<Image
 					src={forfaitImg}
 					alt="forfait chevreuil"

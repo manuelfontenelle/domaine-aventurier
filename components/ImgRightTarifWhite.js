@@ -1,9 +1,9 @@
 import React from "react"
 import Image from "next/image"
 
-const ImgRightTarif = ({ icon, introPageImg, text, titre }) => {
+const ImgRightTarifWhite = ({ icon, introPageImg, text, titre }) => {
 	return (
-		<section className="relative  md:h-[250px] flex flex-col flex-wrap  bg-black">
+		<section className="relative  md:h-[250px] flex flex-col flex-wrap  bg-white">
 			<div className="h-[200px] md:w-[60%] right-0 md:absolute md:h-[250px]">
 				<Image
 					className=" block w-full object-cover h-[100%]"
@@ -21,15 +21,15 @@ const ImgRightTarif = ({ icon, introPageImg, text, titre }) => {
 								className="w-[45px] mb-2 md:mb-0  lg:w-[35px]"
 							></Image>
 						</div>
-						<h2 className="font-bold text-xl ml-5 uppercase text-white">
+						<h2 className="font-bold text-xl ml-5 uppercase text-black">
 							{titre}
 						</h2>
 					</div>
-					<div className=" text-white pr-10">{text}</div>
+					<div className=" text-black pr-10">{text}</div>
 				</div>
 			</div>
 		</section>
 	)
 }
 
-export default ImgRightTarif
+export default ImgRightTarifWhite
