@@ -38,11 +38,14 @@ const contact = () => {
 				</section>
 
 				<section className="container mb-10">
-					<div className="flex flex-row ">
+					<div className="flex flex-col md:flex-row ">
 						<div className="block  my-10">
+							<h3 className="mb-4 font-bold text-xl uppercase">
+								Formulaire de contact :
+							</h3>
 							<Formulaire />
 						</div>
-						<div className=" py-10 bg-white ml-16">
+						<div className=" py-10 bg-white md:ml-16">
 							<div className=" flex flex-col justify-start items-start gap-10">
 								<div className="flex flex-row justify-start items-start">
 									<Image

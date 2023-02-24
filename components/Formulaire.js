@@ -75,7 +75,7 @@ const Formulaire = () => {
 
 	return (
 		<div className="relative">
-			<div className="block rounded-lg  max-w-lg">
+			<div className="block rounded-lg  md:max-w-lg">
 				<form id="contact-form1" onSubmit={(e) => handleSubmit(e)}>
 					<div className="grid grid-cols-2 gap-4">
 						<div className="form-group mb-6">
@@ -219,9 +219,9 @@ const Formulaire = () => {
      uppercase
      rounded
      shadow-md
-     hover:bg-[#e37203] hover:shadow-lg
-     focus:bg-[#e37203] focus:shadow-lg focus:outline-none focus:ring-0
-     active:bg-[#e37203] active:shadow-lg
+     hover:bg-[#000000] hover:shadow-lg
+     focus:bg-[#000000] focus:shadow-lg focus:outline-none focus:ring-0
+     active:bg-[#000000] active:shadow-lg
      transition
      duration-150
      ease-in-out btn-form"
