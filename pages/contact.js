@@ -40,7 +40,7 @@ const contact = () => {
 				<section className="container mb-10">
 					<div className="flex flex-col md:flex-row ">
 						<div className="block  my-10">
-							<h3 className="mb-4 font-bold text-xl uppercase">
+							<h3 className="mb-6 font-bold text-xl uppercase">
 								Formulaire de contact :
 							</h3>
 							<Formulaire />

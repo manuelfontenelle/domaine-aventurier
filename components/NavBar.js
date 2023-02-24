@@ -8,7 +8,7 @@ import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai"
 import { ImFacebook } from "react-icons/im"
 
 import logo from "../public/logo.png"
-import GB from "country-flag-icons/react/3x2/GB"
+// import GB from "country-flag-icons/react/3x2/GB"
 
 const NavBar = () => {
 	// detection page active pour Style Nav
@@ -79,11 +79,21 @@ const NavBar = () => {
 								<ImFacebook size={25} />
 							</li>
 						</a>
-						<Link href="/" className="">
+						{/* <Link href="/" className="">
 							<li className="ml-10 text-sm py-4">
 								<GB title="United States" className=" h-4" />
 							</li>
-						</Link>
+						</Link> */}
+
+						<li className="ml-10 text-sm py-4">
+							<Link href="/" className="">
+								FR
+							</Link>
+							|
+							<Link href="/en" className="">
+								EN
+							</Link>
+						</li>
 					</ul>
 					<div
 						onClick={handleNav}
@@ -142,11 +152,20 @@ const NavBar = () => {
 									<ImFacebook size={25} />
 								</li>
 							</a>
-							<Link href="/">
+							<li className="py-4 text-md">
+								<Link href="/" className="">
+									FR
+								</Link>
+								|
+								<Link href="/en" className="">
+									EN
+								</Link>
+							</li>
+							{/* <Link href="/">
 								<li className="py-4 text-md">
 									<GB title="United States" className=" h-4" />
 								</li>
-							</Link>
+							</Link> */}
 						</ul>
 					</div>
 				</div>
