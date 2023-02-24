@@ -191,7 +191,7 @@ const tarifs = () => {
 				</section>
 
 				<section className="container my-10">
-					<div className="flex flex-row  justify-between items-center flex-wrap  gap-10">
+					<div className="flex flex-row justify-between items-center flex-wrap gap-10">
 						<TarifForfait2
 							titre={"forfait Vagabond :"}
 							texte={textForfaitVagabond}

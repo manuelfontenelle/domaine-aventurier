@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
 import introPageImg from "../public/intro_bg.jpg"
 import Map from "@/components/Map"
+import Formulaire from "@/components/Formulaire"
 
 import icon1 from "../public/icones/pin_black.png"
 import icon2 from "../public/icones/phone_black.png"
@@ -36,38 +37,43 @@ const contact = () => {
 					</div>
 				</section>
 
-				<section className="container">
-					<div className=" py-10 bg-white ">
-						<div className=" flex flex-col justify-start items-start gap-10">
-							<div className="flex flex-row justify-start items-start">
-								<Image
-									src={icon1}
-									alt="Icon map"
-									className="w-[35px] lg:w-[45px] mr-3 pt-1"
-								></Image>
-								<p className="font-OpenSans text-base font-bold text-[#141414] md:text-lg ">
-									Domaine Aventurier Inc.
-									<br />
-									131 Chemin du Poisson Blanc <br />
-									Notre-Dame-du-Laus, Québec J0X 2M0
-								</p>
-							</div>
-							<div className="flex flex-row justify-end items-end">
-								<Image
-									src={icon2}
-									alt="Icon phone"
-									className="w-[35px] lg:w-[45px] mr-3 mb-[-12px]"
-								></Image>
-								<p className="font-OpenSans font-bold text-[#141414] text-base md:text-lg">
-									(514) 518-2643
-									<br />
-									<span className="mt-1 block">
-										819-767-2130
-										<span className="text-sm md:ml-1 block md:inline-block">
-											(Cellulaire : Appel / SMS)
+				<section className="container mb-10">
+					<div className="flex flex-row ">
+						<div className="block  my-10">
+							<Formulaire />
+						</div>
+						<div className=" py-10 bg-white ml-16">
+							<div className=" flex flex-col justify-start items-start gap-10">
+								<div className="flex flex-row justify-start items-start">
+									<Image
+										src={icon1}
+										alt="Icon map"
+										className="w-[35px] lg:w-[45px] mr-3 pt-1"
+									></Image>
+									<p className="font-OpenSans text-base font-bold text-[#141414] md:text-lg ">
+										Domaine Aventurier Inc.
+										<br />
+										131 Chemin du Poisson Blanc <br />
+										Notre-Dame-du-Laus, Québec J0X 2M0
+									</p>
+								</div>
+								<div className="flex flex-row justify-end items-end">
+									<Image
+										src={icon2}
+										alt="Icon phone"
+										className="w-[35px] lg:w-[45px] mr-3 mb-[-12px]"
+									></Image>
+									<p className="font-OpenSans font-bold text-[#141414] text-base md:text-lg">
+										(514) 518-2643
+										<br />
+										<span className="mt-1 block">
+											819-767-2130
+											<span className="text-sm md:ml-1 block md:inline-block">
+												(Cellulaire : Appel / SMS)
+											</span>
 										</span>
-									</span>
-								</p>
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
