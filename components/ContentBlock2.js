@@ -17,11 +17,11 @@ const ContentBlock2 = () => {
 					</div>
 					<p className="text-md leading-6  md:text-justify mt-7 xl:leading-8 xl:text-lg">
 						Contactez-nous dès maintenant pour réserver votre séjour au sein de
-						notre centre de pêche 4 saisons, ou pour toutes demandes
-						d’informations concernant l’emplacement, la disponibilité, les
-						équipements sur place, les tarifs ou toutes autres questions. Il
-						nous fera plaisir de vous apporter des réponses claires et précises
-						sur ce que vous trouverez sur place.
+						notre pourvoirie 4 saisons, ou pour toutes demandes d’informations
+						concernant l’emplacement, la disponibilité, les équipements sur
+						place, les tarifs ou toutes autres questions. Il nous fera plaisir
+						de vous apporter des réponses claires et précises sur ce que vous
+						trouverez sur place.
 						<br />
 						<br />
 						Au plaisir de vous accueillir au Domaine Aventurier
@@ -48,8 +48,15 @@ const ContentBlock2 = () => {
 								alt=""
 								className="w-[35px] lg:w-[45px] mr-3 mb-[-12px]"
 							></Image>
-							<p className="font-OpenSans font-bold text-white text-base md:text-lg  ">
+							<p className="font-OpenSans font-bold text-white text-base md:text-lg">
 								(514) 518-2643
+								<br />
+								<span className="mt-1 block">
+									819-767-2130
+									<span className="text-sm md:ml-1 block md:inline-block">
+										(Cellulaire : Appel / SMS)
+									</span>
+								</span>
 							</p>
 						</div>
 					</div>
@@ -59,7 +66,7 @@ const ContentBlock2 = () => {
 							alt="Logo Domaine Aventurier"
 							className="w-[120px] right-0 absolute  mt-[-30px] sm:mt-[-40px] sm:w-[150px] md:w-[150px] lg:w-[280px] z-20 lg:mt-[-10px] mr-5 xl:mr-0"
 						></Image>
-						<span className="left-0 bottom-16 h-16 lg:w-[80%] bg-white absolute"></span>
+						<span className="left-0 bottom-12 h-16 lg:w-[80%] bg-white absolute"></span>
 					</div>
 				</div>
 			</div>

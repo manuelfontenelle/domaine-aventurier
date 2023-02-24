@@ -255,7 +255,7 @@ const tarifs = () => {
 									<th className="border border-slate-300 p-2">Mois</th>
 									<th className="border border-slate-300 p-2">
 										Saison
-										<span className="text-xs ml-2">(15 Mai au 15 sept)</span>
+										<span className="text-xs ml-2">(15 Mai au 15 Oct)</span>
 									</th>
 								</tr>
 							</thead>

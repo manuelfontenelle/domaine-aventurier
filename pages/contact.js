@@ -60,6 +60,13 @@ const contact = () => {
 								></Image>
 								<p className="font-OpenSans font-bold text-[#141414] text-base md:text-lg">
 									(514) 518-2643
+									<br />
+									<span className="mt-1 block">
+										819-767-2130
+										<span className="text-sm md:ml-1 block md:inline-block">
+											(Cellulaire : Appel / SMS)
+										</span>
+									</span>
 								</p>
 							</div>
 						</div>

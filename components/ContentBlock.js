@@ -5,14 +5,17 @@ import Forfait from "./Forfait"
 import forfait1 from "../public/icones/chevreuil.png"
 import forfait2 from "../public/icones/dinde.png"
 import forfait3 from "../public/icones/ours.png"
+import forfait4 from "../public/icones/fishing.png"
+import forfait5 from "../public/icones/quad_black.png"
+import forfait6 from "../public/icones/sauvagine.png"
 
 import { FaArrowRight } from "react-icons/fa"
 
 const ContentBlock = () => {
 	return (
 		<section className="flex flex-wrap   ">
-			<div className=" bg-intro-bg bg-cover bg-no-repeat bg-center h-80 w-full md:absolute md:left-0 md:h-[1250px] lg:h-[1050px] md:w-[39%] "></div>
-			<div className=" container relative  md:h-[1250px] lg:h-[1050px] ">
+			<div className=" bg-intro-bg bg-cover bg-no-repeat bg-center h-80 w-full md:absolute md:left-0 md:h-[1350px] lg:h-[1200px] md:w-[39%] "></div>
+			<div className=" container relative  md:h-[1350px] lg:h-[1200px] ">
 				<div className=" xl:pr-8 md:absolute md:ml-[39%]   2xl:ml-[37%] ">
 					<div className="pt-10 ">
 						<h2 className="font-OpenSans font-black text-xl uppercase title title--orange">
@@ -28,8 +31,13 @@ const ContentBlock = () => {
 							FQCQ (VTT) pour initier ou satisfaire les adeptes de plein air de
 							tous âges.
 							<br />
-							<br /> Situé dans la région touristique des Hautes Laurentides du
-							Québec, tout près de l’Outaouais. <br />
+							<br />
+							Location d'embarcation multiple, kayak, paddleboard, chaloupe avec
+							ou sans moteur et ponton.
+							<br />
+							<br />
+							Situé dans la région touristique des Hautes Laurentides du Québec,
+							tout près de l’Outaouais. <br />
 							<br />
 							Vous trouverez : épicerie, dépanneurs, quincaillerie, pharmacie,
 							restaurants, services bancaires, poste d’essence et de réparations
@@ -43,7 +51,11 @@ const ContentBlock = () => {
 									size={20}
 									className="inline-block mr-2 mt-[-3px]"
 								/>
-								<a href="/" className=" hover:underline">
+								<a
+									target="_blank"
+									href="http://www.domaineaventurier.com/wp-content/uploads/p042-046%20Destination%20aventurier.pdf"
+									className=" hover:underline"
+								>
 									Destination Chasse et Pêche: Le Domaine Aventurier.
 								</a>
 							</span>
@@ -53,10 +65,18 @@ const ContentBlock = () => {
 						<h2 className="font-OpenSans font-black text-xl uppercase title title--green">
 							Nos forfaits :
 						</h2>
-						<div className="flex flex-col my-10 gap-12 md:h-[300px] md:flex-row">
+						<div className="flex  flex-col mt-10 mb-7 gap-8 md:h-[190px] md:flex-row">
 							<Forfait forfaitImg={forfait1} forfaitTitle={"Chevreuil"} />
 							<Forfait forfaitImg={forfait2} forfaitTitle={"Dindon"} />
 							<Forfait forfaitImg={forfait3} forfaitTitle={"Ours"} />
+						</div>
+						<div className="flex flex-col  gap-8 md:h-[190px] md:flex-row">
+							<Forfait forfaitImg={forfait4} forfaitTitle={"Pêche"} />
+							<Forfait
+								forfaitImg={forfait5}
+								forfaitTitle={"Motoneige / Quad"}
+							/>
+							<Forfait forfaitImg={forfait6} forfaitTitle={"Sauvagine"} />
 						</div>
 					</div>
 				</div>
