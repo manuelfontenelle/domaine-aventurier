@@ -198,7 +198,7 @@ const Formulaire = () => {
      "
 							id="exampleFormControlTextarea13"
 							rows="3"
-							placeholder="Description des travaux..."
+							placeholder="Votre message..."
 							onChange={(e) => setMessage(e.target.value)}
 						></textarea>
 					</div>
