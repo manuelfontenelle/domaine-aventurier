@@ -19,31 +19,41 @@ const Intro = () => {
 			</div>
 			<div className="flex justify-items-center bg-white w-full md:bottom-0 md:absolute md:h-36 ">
 				<div className="container  w-full flex-wrap flex justify-between gap-5 py-5  items-center  md:flex-wrap md:justify-between ">
-					<Image
-						src={partenaire1}
-						alt="logo_quebequad-fédération québécoise des clubs quads"
-						className="w-[120px] lg:w-[230px]"
-					></Image>
-					<Image
-						src={partenaire2}
-						alt="logo_fedecp-fédération québécoise des chasseurs etpêcheurs"
-						className="w-[120px] lg:w-[190px]"
-					></Image>
-					<Image
-						src={partenaire3}
-						alt="logo_pourvoiries-les pourvoiries du québec"
-						className="w-[100px] lg:w-[160px]"
-					></Image>
-					<Image
-						src={partenaire4}
-						alt="logo_laurentides"
-						className="w-[100px] lg:w-[220px]"
-					></Image>
-					<Image
-						src={partenaire5}
-						alt="logo_fcmq-la fédération des clubs de motoneiges du québec"
-						className="w-[80px] mlg:w-[100px]"
-					></Image>
+					<a href="https://www.fqcq.qc.ca/" target="_blank">
+						<Image
+							src={partenaire1}
+							alt="logo_quebequad-fédération québécoise des clubs quads"
+							className="w-[120px] lg:w-[230px]"
+						></Image>
+					</a>
+					<a href="https://fedecp.com/" target="_blank">
+						<Image
+							src={partenaire2}
+							alt="logo_fedecp-fédération québécoise des chasseurs etpêcheurs"
+							className="w-[120px] lg:w-[190px]"
+						></Image>
+					</a>
+					<a href="https://www.pourvoiries.com/" target="_blank">
+						<Image
+							src={partenaire3}
+							alt="logo_pourvoiries-les pourvoiries du québec"
+							className="w-[100px] lg:w-[160px]"
+						></Image>
+					</a>
+					<a href="https://www.laurentides.com/" target="_blank">
+						<Image
+							src={partenaire4}
+							alt="logo_laurentides"
+							className="w-[100px] lg:w-[220px]"
+						></Image>
+					</a>
+					<a href="https://www.fcmq.qc.ca/" target="_blank">
+						<Image
+							src={partenaire5}
+							alt="logo_fcmq-la fédération des clubs de motoneiges du québec"
+							className="w-[80px] mlg:w-[100px]"
+						></Image>
+					</a>
 				</div>
 			</div>
 		</section>
