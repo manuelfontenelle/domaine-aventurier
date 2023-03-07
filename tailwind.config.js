@@ -23,6 +23,12 @@ module.exports = {
 			},
 			backgroundImage: {
 				"intro-bg": "url('../public/intro_bg.jpg')",
+				"intro-home": "url('../public/intro_home.jpg')",
+				"left-home": "url('../public/left_home.jpg')",
+				gallery1: "url('../public/gallery1.jpg')",
+				gallery2: "url('../public/gallery2.jpg')",
+				gallery3: "url('../public/gallery3.jpg')",
+				gallery4: "url('../public/gallery4.jpg')",
 			},
 		},
 	},

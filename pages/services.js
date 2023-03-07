@@ -5,7 +5,12 @@ import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
 import ImgLeft from "@/components/ImgLeft"
 import ImgRight from "@/components/ImgRight"
-import introPageImg from "../public/intro_bg.jpg"
+import introPageImg from "../public/intro_services.jpg"
+import pecheImg from "../public/service_peche.jpg"
+import chasseImg from "../public/service_chasse.jpg"
+import chaletImg from "../public/service_chalet.jpg"
+import campingImg from "../public/service_camping.jpg"
+import vttImg from "../public/service_vtt.jpg"
 import iconPeche from "../public/icones/fishing_orange.png"
 import iconChasse from "../public/icones/hunt_orange.png"
 import iconChalet from "../public/icones/bed_orange.png"
@@ -109,32 +114,32 @@ const services = () => {
 
 				<ImgRight
 					icon={iconPeche}
-					introPageImg={introPageImg}
+					introPageImg={pecheImg}
 					text={textPeche}
 					titre={"Pêche"}
 				/>
 				<ImgLeft
 					icon={iconChasse}
-					introPageImg={introPageImg}
+					introPageImg={chasseImg}
 					text={textChasse}
 					titre={"Chasse"}
 				/>
 				<ImgRight
 					icon={iconChalet}
-					introPageImg={introPageImg}
+					introPageImg={chaletImg}
 					text={textChalet}
 					titre={"Chalets"}
 				/>
 				<ImgLeft
 					icon={iconCamping}
-					introPageImg={introPageImg}
+					introPageImg={campingImg}
 					text={textCamping}
 					titre={"Camping & Caravaning"}
 					sousTitre={"(Saisonnier et Journalier)"}
 				/>
 				<ImgRight
 					icon={iconVtt}
-					introPageImg={introPageImg}
+					introPageImg={vttImg}
 					text={textVtt}
 					titre={"V.T.T"}
 				/>

@@ -14,7 +14,7 @@ import { FaArrowRight } from "react-icons/fa"
 const ContentBlock = () => {
 	return (
 		<section className="flex flex-wrap   ">
-			<div className=" bg-intro-bg bg-cover bg-no-repeat bg-center h-80 w-full md:absolute md:left-0 md:h-[1350px] lg:h-[1200px] md:w-[39%] "></div>
+			<div className=" bg-left-home bg-cover bg-no-repeat bg-center h-80 w-full md:absolute md:left-0 md:h-[1350px] lg:h-[1200px] md:w-[39%] "></div>
 			<div className=" container relative  md:h-[1350px] lg:h-[1200px] ">
 				<div className=" xl:pr-8 md:absolute md:ml-[39%]   2xl:ml-[37%] ">
 					<div className="pt-10 ">

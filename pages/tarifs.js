@@ -187,7 +187,7 @@ const tarifs = () => {
 						icon={iconChevreuil}
 						introPageImg={introPageImg}
 						text={textCerf}
-						titre={"Forfait Chasse Cerf de Virginie"}
+						titre={"CERF DE VIRGINIE (chevreuil)"}
 					/>
 				</section>
 				<section>

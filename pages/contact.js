@@ -3,7 +3,7 @@ import Head from "next/head"
 import Image from "next/image"
 import NavBar from "../components/NavBar"
 import Footer from "../components/Footer"
-import introPageImg from "../public/intro_bg.jpg"
+import introPageImg from "../public/intro_contact.jpg"
 import Map from "@/components/Map"
 import Formulaire from "@/components/Formulaire"
 

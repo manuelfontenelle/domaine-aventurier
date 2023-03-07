@@ -7,7 +7,7 @@ import partenaire4 from "../public/logos/logo_laurentides.png"
 import partenaire5 from "../public/logos/logo_fcmq.png"
 const Intro = () => {
 	return (
-		<section className="relative min-h-screen w-full h-full  bg-intro-bg bg-cover bg-no-repeat bg-center md:bg-[center] ">
+		<section className="relative min-h-screen w-full h-full  bg-intro-home bg-cover bg-no-repeat bg-center md:bg-[center] ">
 			<div className="flex justify-center  flex-col h-full gap-3 min-h-screen px-5 lg:items-center">
 				<h1 className="font-OpenSans font-bold text-white text-5xl lg:text-7xl">
 					Domaine Aventurier Inc
