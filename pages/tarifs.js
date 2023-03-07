@@ -6,7 +6,7 @@ import Footer from "../components/Footer"
 import iconChevreuil from "../public/icones/chevreuil.png"
 import iconDinde from "../public/icones/dinde_green.png"
 import iconOurs from "../public/icones/ours.png"
-import iconSauvagine from "../public/icones/sauvagine.png"
+import iconSauvagine from "../public/icones/sauvagine_green.png"
 import iconPeche from "../public/icones/fishing_green.png"
 import iconQuad from "../public/icones/quad_green.png"
 import iconChalet from "../public/icones/bed_orange.png"
@@ -19,25 +19,70 @@ import TarifForfait2 from "@/components/TarifForfait2"
 
 const textCerf = (
 	<p className="mt-5 text-md leading-6">
-		3 nuits/4 jours de chasse pour
-		<span className="font-bold text-[#ff7f00]"> 550$/pers </span>
-		hébergement inclus <br />
+		<span className="font-bold uppercase">
+			Forfait 3 nuitées + 4 jours de chasse
+		</span>
+		<span className="font-bold text-[#ff7f00] block "> 550$/pers </span>
+		Hébergement inclus <br />
+	</p>
+)
+const textDindon = (
+	<p className="mt-5 text-md leading-6">
+		<span className="font-bold uppercase">
+			Forfait 3 nuitées, 2 matinées + guide
+		</span>
+		<span className="font-bold text-[#ff7f00] block ">
+			900.00$ + taxes / personne
+		</span>
+		Personnes additionnelles 450.00$ + tx
 		<br />
-		Forfait 1 semaine site appâté
-		<span className="font-bold text-[#ff7f00] "> 1100$/pers </span>
-		hébergement inclus
+		Leurre, tente
+		<br />
+	</p>
+)
+const textSauvagine = (
+	<p className="mt-5 text-md leading-6">
+		<span className="font-bold uppercase">
+			Forfait 2 nuitées + 2 matinées avec guide.
+		</span>
+		<span className="font-bold text-[#ff7f00] block ">
+			600.00$ plus tx / 1 personnes
+		</span>
+		Personne additionnel 300$
+		<br />
+		Leurre, tente
+		<br />
+	</p>
+)
+const textOurs = (
+	<p className="mt-5 text-md leading-6">
+		<span className="font-bold uppercase">
+			Forfait 3 nuitées + 2 jours de chasse
+		</span>
+		<span className="font-bold text-[#ff7f00] block ">
+			750.00$ +tx / personnes
+		</span>
+		Personnes additionnelles 500.00$
+		<br />
+		Sites appâtés, cache, tente
+		<br />
 	</p>
 )
 
 const textPeche = (
 	<p className="mt-5 text-md leading-6">
-		2 nuits/3 jours de pêche pour
-		<span className="font-bold text-[#ff7f00]"> 550$/pers </span>
-		inclus hébergement, embarcation <br />
+		<span className="font-bold uppercase">
+			Forfait 2 nuitées + 3 jours de pêche
+		</span>
+		<span className="font-bold text-[#ff7f00] block">
+			550.00$ +tx / personnes
+		</span>
 		<br />
-		Forfait 1 semaine
-		<span className="font-bold text-[#ff7f00] "> 1100$/pers </span>
-		inclus hébergement, embarcation
+		<span className="font-bold uppercase">Forfait 1 semaine</span>
+		<span className="font-bold text-[#ff7f00] block">
+			1100.00$ +tx / personnes
+		</span>
+		Hébergement inclus + Embarcation
 	</p>
 )
 
@@ -125,20 +170,18 @@ const tarifs = () => {
 					</div>
 				</section>
 
-				{/* <section className="container">
-					<div className="mt-10 flex flex-col md:flex-row  gap-10 md:gap-24">
-						<TarifForfait
-							icon={iconChevreuil}
-							titre={"Forfait Chasse Cerf de Virginie"}
-						/>
-						<TarifForfait icon={iconDinde} titre={"Forfait dindon sauvage"} />
-						<TarifForfait
-							icon={iconOurs}
-							titre={"Forfait Ours (Printemps)"}
-							sousTitre={"Arc – Arbalète – Arme à feu"}
-						/>
-					</div>
-				</section> */}
+				<section className="font-bold text-2xl container text-center py-10">
+					<h2 className="text-[#79cf00]">Forfait chasse 2023-2024</h2>
+				</section>
+
+				<section>
+					<ImgRightTarif
+						icon={iconDinde}
+						introPageImg={introPageImg}
+						text={textDindon}
+						titre={"Dindon Sauvage"}
+					/>
+				</section>
 				<section>
 					<ImgRightTarifWhite
 						icon={iconChevreuil}
@@ -149,20 +192,22 @@ const tarifs = () => {
 				</section>
 				<section>
 					<ImgRightTarif
-						icon={iconDinde}
+						icon={iconSauvagine}
 						introPageImg={introPageImg}
-						text={textCerf}
-						titre={"Forfait Dindon Sauvage"}
+						text={textSauvagine}
+						titre={"Forfait Sauvagine"}
 					/>
 				</section>
+
 				<section>
 					<ImgRightTarifWhite
 						icon={iconOurs}
 						introPageImg={introPageImg}
-						text={textCerf}
+						text={textOurs}
 						titre={"Forfait Ours"}
 					/>
 				</section>
+
 				<section>
 					<ImgRightTarif
 						icon={iconPeche}
@@ -172,21 +217,15 @@ const tarifs = () => {
 					/>
 				</section>
 
-				<section>
-					<ImgRightTarifWhite
-						icon={iconSauvagine}
-						introPageImg={introPageImg}
-						text={textCerf}
-						titre={"Forfait Sauvagine"}
-					/>
+				<section className="font-bold text-2xl container text-center py-10">
+					<h2 className="text-[#79cf00]">Forfait Quad-Motoneige 2023-2024</h2>
 				</section>
-
 				<section>
 					<ImgRightTarif
 						icon={iconQuad}
 						introPageImg={introPageImg}
 						text={textQuad}
-						titre={"Forfait Quad-Motoneige"}
+						titre={"Quad-Motoneige"}
 					/>
 				</section>
 
@@ -224,7 +263,10 @@ const tarifs = () => {
 										className="w-[45px] mb-2 md:mb-0  lg:w-[35px]"
 									></Image>
 								</div>
-								<h2 className="font-bold text-xl ml-5 uppercase ">Chalets</h2>
+								<h2 className="font-bold text-xl ml-5 uppercase ">
+									Chalets
+									<span className="text-sm"> (Minimum 2 nuits)</span>
+								</h2>
 							</div>
 						</div>
 						<div className="overflow-scroll md:overflow-auto">
@@ -245,39 +287,70 @@ const tarifs = () => {
 										<td className="border border-slate-300 p-2">Chalet #1</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-4</td>
+										<td className="border border-slate-300 p-2">170$</td>
+										<td className="border border-slate-300 p-2">900$</td>
+									</tr>
+									<tr>
+										<td className="border border-slate-300 p-2">Chalet #2</td>
+										<td className="border border-slate-300 p-2">3</td>
+										<td className="border border-slate-300 p-2">5-6</td>
+										<td className="border border-slate-300 p-2">190$</td>
+										<td className="border border-slate-300 p-2">1100$</td>
+									</tr>
+									<tr>
+										<td className="border border-slate-300 p-2">Chalet #3</td>
+										<td className="border border-slate-300 p-2">2</td>
+										<td className="border border-slate-300 p-2">2-4</td>
+										<td className="border border-slate-300 p-2">170$</td>
+										<td className="border border-slate-300 p-2">900$</td>
+									</tr>
+									<tr>
+										<td className="border border-slate-300 p-2">Chalet #4</td>
+										<td className="border border-slate-300 p-2">1</td>
+										<td className="border border-slate-300 p-2">1-2</td>
 										<td className="border border-slate-300 p-2">180$</td>
 										<td className="border border-slate-300 p-2">1000$</td>
 									</tr>
 									<tr>
-										<td className="border border-slate-300 p-2">Chalet #1</td>
-										<td className="border border-slate-300 p-2">2</td>
-										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">180$</td>
-										<td className="border border-slate-300 p-2">1000$</td>
+										<td className="border border-slate-300 p-2">Chalet #5</td>
+										<td className="border border-slate-300 p-2">3</td>
+										<td className="border border-slate-300 p-2">5-8</td>
+										<td className="border border-slate-300 p-2">190$</td>
+										<td className="border border-slate-300 p-2">1100$</td>
 									</tr>
 									<tr>
-										<td className="border border-slate-300 p-2">Chalet #1</td>
-										<td className="border border-slate-300 p-2">2</td>
-										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">180$</td>
-										<td className="border border-slate-300 p-2">1000$</td>
+										<td className="border border-slate-300 p-2">Chalet #6</td>
+										<td className="border border-slate-300 p-2">1</td>
+										<td className="border border-slate-300 p-2">2-6</td>
+										<td className="border border-slate-300 p-2">150$</td>
+										<td className="border border-slate-300 p-2">1100$</td>
 									</tr>
 									<tr>
-										<td className="border border-slate-300 p-2">Chalet #1</td>
+										<td className="border border-slate-300 p-2">Chalet #7</td>
 										<td className="border border-slate-300 p-2">2</td>
-										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">180$</td>
-										<td className="border border-slate-300 p-2">1000$</td>
+										<td className="border border-slate-300 p-2">2-8</td>
+										<td className="border border-slate-300 p-2">170$</td>
+										<td className="border border-slate-300 p-2">900$</td>
 									</tr>
 									<tr>
-										<td className="border border-slate-300 p-2">Chalet #1</td>
+										<td className="border border-slate-300 p-2">Chalet #8</td>
 										<td className="border border-slate-300 p-2">2</td>
-										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">180$</td>
-										<td className="border border-slate-300 p-2">1000$</td>
+										<td className="border border-slate-300 p-2">2-6</td>
+										<td className="border border-slate-300 p-2">170$</td>
+										<td className="border border-slate-300 p-2">900$</td>
+									</tr>
+									<tr>
+										<td className="border border-slate-300 p-2">Chalet #9</td>
+										<td className="border border-slate-300 p-2">2</td>
+										<td className="border border-slate-300 p-2">2-6</td>
+										<td className="border border-slate-300 p-2">170$</td>
+										<td className="border border-slate-300 p-2">900$</td>
 									</tr>
 								</tbody>
 							</table>
+							<span className="text-sm mt-2 block">
+								LES ANIMAUX DE COMPAGNIES NE SONT PAS ACCEPTÉS SUR LE SITE.
+							</span>
 						</div>
 					</section>
 
