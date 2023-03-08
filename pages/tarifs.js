@@ -11,7 +11,13 @@ import iconPeche from "../public/icones/fishing_green.png"
 import iconQuad from "../public/icones/quad_green.png"
 import iconChalet from "../public/icones/bed_orange.png"
 import iconCamping from "../public/icones/camping_orange.png"
-import introPageImg from "../public/intro_bg.jpg"
+import introPageImg from "../public/intro_tarifs.jpg"
+import tarifDindonImg from "../public/tarif_dindon.jpg"
+import tarifSauvagineImg from "../public/tarif_sauvagine.jpg"
+import tarifChevreuilImg from "../public/tarif_chevreuil.jpg"
+import tarifOursImg from "../public/tarif_ours.jpg"
+import tarifPecheImg from "../public/tarif_peche.jpg"
+import tarifQuadImg from "../public/tarif_quad.jpg"
 // import TarifForfait from "@/components/TarifForfait"
 import ImgRightTarif from "../components/ImgRightTarif"
 import ImgRightTarifWhite from "../components/ImgRightTarifWhite"
@@ -177,7 +183,7 @@ const tarifs = () => {
 				<section>
 					<ImgRightTarif
 						icon={iconDinde}
-						introPageImg={introPageImg}
+						introPageImg={tarifDindonImg}
 						text={textDindon}
 						titre={"Dindon Sauvage"}
 					/>
@@ -185,7 +191,7 @@ const tarifs = () => {
 				<section>
 					<ImgRightTarifWhite
 						icon={iconChevreuil}
-						introPageImg={introPageImg}
+						introPageImg={tarifChevreuilImg}
 						text={textCerf}
 						titre={"CERF DE VIRGINIE (chevreuil)"}
 					/>
@@ -193,7 +199,7 @@ const tarifs = () => {
 				<section>
 					<ImgRightTarif
 						icon={iconSauvagine}
-						introPageImg={introPageImg}
+						introPageImg={tarifSauvagineImg}
 						text={textSauvagine}
 						titre={"Forfait Sauvagine"}
 					/>
@@ -202,7 +208,7 @@ const tarifs = () => {
 				<section>
 					<ImgRightTarifWhite
 						icon={iconOurs}
-						introPageImg={introPageImg}
+						introPageImg={tarifOursImg}
 						text={textOurs}
 						titre={"Forfait Ours"}
 					/>
@@ -211,7 +217,7 @@ const tarifs = () => {
 				<section>
 					<ImgRightTarif
 						icon={iconPeche}
-						introPageImg={introPageImg}
+						introPageImg={tarifPecheImg}
 						text={textPeche}
 						titre={"Forfait Pêche"}
 					/>
@@ -223,7 +229,7 @@ const tarifs = () => {
 				<section>
 					<ImgRightTarif
 						icon={iconQuad}
-						introPageImg={introPageImg}
+						introPageImg={tarifQuadImg}
 						text={textQuad}
 						titre={"Quad-Motoneige"}
 					/>
