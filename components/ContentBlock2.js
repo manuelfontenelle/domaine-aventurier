@@ -33,7 +33,7 @@ const ContentBlock2 = () => {
 							<Image
 								src={icon1}
 								alt=""
-								className="w-[35px] lg:w-[45px] mr-3 pt-1"
+								className="w-[35px] lg:w-[35px] mr-5 mt-2"
 							></Image>
 							<p className="font-OpenSans text-base font-bold text-white md:text-lg ">
 								Domaine Aventurier Inc.
@@ -42,11 +42,11 @@ const ContentBlock2 = () => {
 								Notre-Dame-du-Laus, Québec J0X 2M0
 							</p>
 						</div>
-						<div className="flex flex-row justify-end items-end">
+						<div className="flex flex-row justify-end items-start">
 							<Image
 								src={icon2}
 								alt=""
-								className="w-[35px] lg:w-[45px] mr-3 mb-[-12px]"
+								className="w-[35px] lg:w-[35px] mr-5 mt-2"
 							></Image>
 							<p className="font-OpenSans font-bold text-white text-base md:text-lg">
 								(514) 518-2643
