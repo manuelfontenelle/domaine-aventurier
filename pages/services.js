@@ -16,6 +16,7 @@ import iconChasse from "../public/icones/hunt_orange.png"
 import iconChalet from "../public/icones/bed_orange.png"
 import iconCamping from "../public/icones/camping_orange.png"
 import iconVtt from "../public/icones/vtt_orange.png"
+import { useEffect, useState } from "react"
 const textPeche = (
 	<p>
 		Situé sur une terre magnifique bordant la rivière du Lièvre, le réservoir
@@ -57,9 +58,6 @@ const textChalet = (
 		<ul>
 			<li>- Literie </li>
 			<li>- Serviettes de bain</li>
-			<li>- Savon </li>
-			<li>- Papier de toilette</li>
-			<li>- Linges & savon à vaisselle</li>
 		</ul>
 	</div>
 )
@@ -87,6 +85,12 @@ const textVtt = (
 )
 
 const services = () => {
+	const [scroll, setScroll] = useState(false)
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
+			setScroll(window.scrollY > 50)
+		})
+	}, [])
 	return (
 		<div>
 			<Head>
@@ -94,7 +98,7 @@ const services = () => {
 				<meta name="description" content="Domaine Aventurier - Contact" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
-			<NavBar />
+			<NavBar scroll={scroll} />
 			<main className="min-h-screen">
 				<section className="pt-20">
 					<div className="h-96 relative">

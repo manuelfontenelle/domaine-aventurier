@@ -10,10 +10,16 @@ import Galery from "@/components/Galery"
 import ContentBlock from "@/components/ContentBlock"
 import ContentBlock2 from "@/components/ContentBlock2"
 import Map from "@/components/Map"
-
+import { useEffect, useState } from "react"
 const inter = Inter({ subsets: ["latin"] })
 
 export default function Home() {
+	const [scroll, setScroll] = useState(false)
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
+			setScroll(window.scrollY > 50)
+		})
+	}, [])
 	return (
 		<>
 			<Head>
@@ -28,7 +34,7 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
-			<NavBar />
+			<NavBar scroll={scroll} />
 			<main>
 				<RightBar />
 				<Intro />

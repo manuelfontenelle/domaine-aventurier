@@ -10,7 +10,7 @@ import { ImFacebook } from "react-icons/im"
 import logo from "../public/logo.png"
 // import GB from "country-flag-icons/react/3x2/GB"
 
-const NavBar = () => {
+const NavBar = ({ scroll }) => {
 	// detection page active pour Style Nav
 	const router = useRouter()
 	const currentRoute = router.pathname
@@ -26,15 +26,19 @@ const NavBar = () => {
 
 	return (
 		<nav
-			className="fixed w-full h-20  z-[100]  ease-in duration-300 bg-[#141414] shadow-xl"
+			className={`w-full h-20  z-[100]  ease-in duration-300 bg-[#141414] shadow-xl ${
+				scroll ? "fixed" : "absolute"
+			}`}
 			id="navbar"
 		>
 			<div className="container flex items-center w-full h-full justify-between font-OpenSans">
-				<Image
-					src={logo}
-					alt="Logo Domaine Aventurier"
-					className=" mt-24 w-[130px] md:w-[150px]"
-				></Image>
+				<Link href="/">
+					<Image
+						src={logo}
+						alt="Logo Domaine Aventurier"
+						className=" mt-24 w-[130px] md:w-[150px]"
+					></Image>
+				</Link>
 
 				<div>
 					<ul className="hidden font-bold text-[#ffffff] md:flex">
@@ -115,11 +119,13 @@ const NavBar = () => {
 				>
 					<div>
 						<div className="flex w-full items-center justify-between">
-							<Image
-								src={logo}
-								width="125"
-								alt="Logo Domaine Aventurier"
-							></Image>
+							<Link href="/">
+								<Image
+									src={logo}
+									width="125"
+									alt="Logo Domaine Aventurier"
+								></Image>
+							</Link>
 							<div onClick={handleNav} className=" p-3 cursor-pointer">
 								<AiOutlineClose size={25} />
 							</div>

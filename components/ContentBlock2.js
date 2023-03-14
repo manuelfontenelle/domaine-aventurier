@@ -36,7 +36,7 @@ const ContentBlock2 = () => {
 								className="w-[35px] lg:w-[35px] mr-5 mt-2"
 							></Image>
 							<p className="font-OpenSans text-base font-bold text-white md:text-lg ">
-								Domaine Aventurier Inc.
+								Domaine Aventurier
 								<br />
 								131 Chemin du Poisson Blanc <br />
 								Notre-Dame-du-Laus, Québec J0X 2M0
@@ -49,10 +49,10 @@ const ContentBlock2 = () => {
 								className="w-[35px] lg:w-[35px] mr-5 mt-2"
 							></Image>
 							<p className="font-OpenSans font-bold text-white text-base md:text-lg">
-								(514) 518-2643
+								819-767-2130
 								<br />
 								<span className="mt-1 block">
-									819-767-2130
+									514-518-2643
 									<span className="text-sm md:ml-1 block md:inline-block">
 										(Cellulaire : Appel / SMS)
 									</span>

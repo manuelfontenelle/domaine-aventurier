@@ -13,7 +13,7 @@ import { FaArrowRight } from "react-icons/fa"
 
 const ContentBlock = () => {
 	return (
-		<section className="flex flex-wrap   ">
+		<section className="flex flex-wrap">
 			<div className=" bg-left-home bg-cover bg-no-repeat bg-center h-80 w-full md:absolute md:left-0 md:h-[1350px] lg:h-[1200px] md:w-[39%] "></div>
 			<div className=" container relative  md:h-[1350px] lg:h-[1200px] ">
 				<div className=" xl:pr-8 md:absolute md:ml-[39%]   2xl:ml-[37%] ">
@@ -40,8 +40,9 @@ const ContentBlock = () => {
 							tout près de l’Outaouais. <br />
 							<br />
 							Vous trouverez : épicerie, dépanneurs, quincaillerie, pharmacie,
-							restaurants, services bancaires, poste d’essence et de réparations
-							à moins de 5 minutes du Domaine Aventurier.
+							restaurants, services bancaires, rampe de mise à l'eau, poste
+							d’essence et de réparations à moins de 5 minutes du Domaine
+							Aventurier.
 						</p>
 
 						<div className=" bg-[#ff7f00] rounded-lg p-4 text-center text-white mt-10 text-md xl:text-xl">
@@ -66,17 +67,35 @@ const ContentBlock = () => {
 							Nos forfaits :
 						</h2>
 						<div className="flex  flex-col mt-10 mb-7 gap-8 md:h-[190px] md:flex-row">
-							<Forfait forfaitImg={forfait1} forfaitTitle={"Chevreuil"} />
-							<Forfait forfaitImg={forfait2} forfaitTitle={"Dindon"} />
-							<Forfait forfaitImg={forfait3} forfaitTitle={"Ours"} />
+							<Forfait
+								forfaitImg={forfait2}
+								forfaitTitle={"Dindon"}
+								id="#dindon"
+							/>
+							<Forfait
+								forfaitImg={forfait1}
+								forfaitTitle={"Chevreuil"}
+								id="#chevreuil"
+							/>
+							<Forfait
+								forfaitImg={forfait6}
+								forfaitTitle={"Sauvagine"}
+								id="#sauvagine"
+							/>
 						</div>
+
 						<div className="flex flex-col  gap-8 md:h-[190px] md:flex-row">
-							<Forfait forfaitImg={forfait4} forfaitTitle={"Pêche"} />
+							<Forfait forfaitImg={forfait3} forfaitTitle={"Ours"} id="#ours" />
+							<Forfait
+								forfaitImg={forfait4}
+								forfaitTitle={"Pêche"}
+								id="#peche"
+							/>
 							<Forfait
 								forfaitImg={forfait5}
 								forfaitTitle={"Motoneige / Quad"}
+								id="#motoneige"
 							/>
-							<Forfait forfaitImg={forfait6} forfaitTitle={"Sauvagine"} />
 						</div>
 					</div>
 				</div>

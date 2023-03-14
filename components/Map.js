@@ -28,14 +28,13 @@ const Map = () => {
 							– sortie 35, autoroute 50 Ouest – sortie 174, route 309 Nord
 							jusqu’au village de Notre-Dame-du-Laus, prendre le pont à gauche
 							(réservoir Poisson Blanc), au bout du pont tourner à droite sur le
-							chemin du Poisson Blanc jusqu’au Domaine Aventurier Inc. (2km){" "}
-							<br />
+							chemin du Poisson Blanc jusqu’au Domaine Aventurier. (2km) <br />
 							<br />
 							<span className="font-bold">D’Ottawa:</span> Autoroute 50 Est,
 							route 309 Nord jusqu’au village de Notre-Dame-du-Laus, prendre le
 							pont à gauche (réservoir Poisson Blanc), au bout du pont tourner à
-							droite sur le chemin du Poisson Blanc jusqu’au Domaine Aventurier
-							Inc. (2km)
+							droite sur le chemin du Poisson Blanc jusqu’au Domaine Aventurier.
+							(2km)
 						</p>
 					</div>
 				</div>

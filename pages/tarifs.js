@@ -1,4 +1,5 @@
 import React from "react"
+
 import Head from "next/head"
 import Image from "next/image"
 import NavBar from "../components/NavBar"
@@ -22,6 +23,7 @@ import tarifQuadImg from "../public/tarif_quad.jpg"
 import ImgRightTarif from "../components/ImgRightTarif"
 import ImgRightTarifWhite from "../components/ImgRightTarifWhite"
 import TarifForfait2 from "@/components/TarifForfait2"
+import { useEffect, useState } from "react"
 
 const textCerf = (
 	<p className="mt-5 text-md leading-6">
@@ -151,6 +153,12 @@ const textForfaitAventurier = (
 )
 
 const tarifs = () => {
+	const [scroll, setScroll] = useState(false)
+	useEffect(() => {
+		window.addEventListener("scroll", () => {
+			setScroll(window.scrollY > 50)
+		})
+	}, [])
 	return (
 		<div>
 			<Head>
@@ -158,7 +166,7 @@ const tarifs = () => {
 				<meta name="description" content="Domaine Aventurier - Tarifs" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
-			<NavBar />
+			<NavBar scroll={scroll} />
 			<main className="min-h-screen">
 				<section className="pt-20">
 					<div className="h-96 relative">
@@ -177,10 +185,10 @@ const tarifs = () => {
 				</section>
 
 				<section className="font-bold text-2xl container text-center py-10">
-					<h2 className="text-[#79cf00]">Forfait chasse 2023-2024</h2>
+					<h2 className="text-[#79cf00]">Forfaits chasse 2023-2024</h2>
 				</section>
 
-				<section>
+				<section id="dindon">
 					<ImgRightTarif
 						icon={iconDinde}
 						introPageImg={tarifDindonImg}
@@ -188,7 +196,7 @@ const tarifs = () => {
 						titre={"Dindon Sauvage"}
 					/>
 				</section>
-				<section>
+				<section id="chevreuil">
 					<ImgRightTarifWhite
 						icon={iconChevreuil}
 						introPageImg={tarifChevreuilImg}
@@ -196,7 +204,7 @@ const tarifs = () => {
 						titre={"CERF DE VIRGINIE (chevreuil)"}
 					/>
 				</section>
-				<section>
+				<section id="sauvagine">
 					<ImgRightTarif
 						icon={iconSauvagine}
 						introPageImg={tarifSauvagineImg}
@@ -205,7 +213,7 @@ const tarifs = () => {
 					/>
 				</section>
 
-				<section>
+				<section id="ours">
 					<ImgRightTarifWhite
 						icon={iconOurs}
 						introPageImg={tarifOursImg}
@@ -214,7 +222,10 @@ const tarifs = () => {
 					/>
 				</section>
 
-				<section>
+				<section className="font-bold text-2xl container text-center py-10">
+					<h2 className="text-[#79cf00]">Forfait pêche 2023-2024</h2>
+				</section>
+				<section id="peche">
 					<ImgRightTarif
 						icon={iconPeche}
 						introPageImg={tarifPecheImg}
@@ -226,7 +237,7 @@ const tarifs = () => {
 				<section className="font-bold text-2xl container text-center py-10">
 					<h2 className="text-[#79cf00]">Forfait Quad-Motoneige 2023-2024</h2>
 				</section>
-				<section>
+				<section id="motoneige">
 					<ImgRightTarif
 						icon={iconQuad}
 						introPageImg={tarifQuadImg}
@@ -311,7 +322,9 @@ const tarifs = () => {
 										<td className="border border-slate-300 p-2">900$</td>
 									</tr>
 									<tr>
-										<td className="border border-slate-300 p-2">Chalet #4</td>
+										<td className="border border-slate-300 p-2">
+											Chalet #4 <span> (non disponible / bureau)</span>
+										</td>
 										<td className="border border-slate-300 p-2">1</td>
 										<td className="border border-slate-300 p-2">1-2</td>
 										<td className="border border-slate-300 p-2">180$</td>

@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import { RiArrowRightSLine } from "react-icons/ri"
-const Forfait = ({ forfaitImg, forfaitTitle }) => {
+const Forfait = ({ forfaitImg, forfaitTitle, id }) => {
 	return (
 		<div className="relative rounded-xl flex-1 border border-slate-200">
 			<div className="flex flex-row justify-center pb-10 gap-4 items-center h-[140px] md:gap-2 md:pb-0 md:h-[150px] md:flex-col">
@@ -20,7 +20,7 @@ const Forfait = ({ forfaitImg, forfaitTitle }) => {
 			</div>
 
 			<Link
-				href="/tarifs"
+				href={`/tarifs${id}`}
 				className="absolute bottom-0  w-full  flex justify-center items-center flex-row rounded-b-xl"
 			>
 				<span className="w-[80%] bg-[#79cf00] h-10 rounded-bl-xl text-center font-regular text-sm text-white flex justify-center items-center lg:h-10 lg:w-[80%] xl:text-base">
