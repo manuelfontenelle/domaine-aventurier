@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import poster from "../public/intro_home.jpg"
 import partenaire1 from "../public/logos/logo_quebequad.png"
 import partenaire2 from "../public/logos/logo_fedecp.png"
 import partenaire3 from "../public/logos/logo_pourvoiries.png"
@@ -63,9 +64,9 @@ const Intro = () => {
 				autoPlay
 				loop
 				muted
-				poster=""
+				poster={poster}
 			>
-				<source src="webm.webm" />
+				{/* <source src="webm.webm" /> */}
 				<source src="mp4.mp4" />
 			</video>
 		</section>
