@@ -65,8 +65,13 @@ const Intro = () => {
 				loop
 				muted
 				poster={poster}
+				muted="true"
+				playsinline
+				repeat="true"
+				autoPlay="autoplay"
+				loop="true"
 			>
-				{/* <source src="webm.webm" /> */}
+				<source src="webm.webm" />
 				<source src="mp4.mp4" />
 			</video>
 		</section>
