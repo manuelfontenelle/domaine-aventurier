@@ -61,15 +61,12 @@ const Intro = () => {
 			<video
 				id="background-video"
 				className="bg-intro-home"
-				autoPlay
-				loop
+				autoPlay={true}
+				loop={true}
+				controls={false}
+				playsInline
 				muted
 				poster={poster}
-				muted="true"
-				playsinline
-				repeat="true"
-				autoPlay="autoplay"
-				loop="true"
 			>
 				<source src="webm.webm" />
 				<source src="mp4.mp4" />
