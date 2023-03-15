@@ -31,7 +31,8 @@ const textCerf = (
 			Forfait 3 nuitées + 4 jours de chasse
 		</span>
 		<span className="font-bold text-[#ff7f00] block ">550$ +tx / Personne</span>
-		Hébergement inclus <br />
+		<br />
+		Hébergement inclus
 	</p>
 )
 const textDindon = (
