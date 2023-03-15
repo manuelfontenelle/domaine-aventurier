@@ -36,7 +36,7 @@ const ContentBlock = () => {
 							ou sans moteur et ponton.
 							<br />
 							<br />
-							Situé dans la région touristique des Hautes Laurentides du Québec,
+							Situé dans la région touristique des Hautes Laurentides au Québec,
 							tout près de l’Outaouais. <br />
 							<br />
 							Vous trouverez : épicerie, dépanneurs, quincaillerie, pharmacie,

@@ -3,8 +3,8 @@ import Image from "next/image"
 
 const ImgRightTarif = ({ icon, introPageImg, text, titre }) => {
 	return (
-		<section className="relative  md:h-[250px] flex flex-col flex-wrap  bg-black">
-			<div className="h-[200px] md:w-[60%] right-0 md:absolute md:h-[250px]">
+		<section className="relative  md:h-[270px] flex flex-col flex-wrap  bg-black">
+			<div className="h-[200px] md:w-[60%] right-0 md:absolute md:h-[270px]">
 				<Image
 					className=" block w-full object-cover h-[100%]"
 					src={introPageImg}
@@ -12,7 +12,7 @@ const ImgRightTarif = ({ icon, introPageImg, text, titre }) => {
 				/>
 			</div>
 			<div className="container relative ">
-				<div className="py-10 md:w-[35%] md:absolute flex justify-center flex-col md:h-[250px]">
+				<div className="py-10 md:w-[35%] md:absolute flex justify-center flex-col md:h-[270px]">
 					<div className="flex flex-row justify-start items-center mb-1">
 						<div className="">
 							<Image

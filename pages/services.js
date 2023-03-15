@@ -15,14 +15,14 @@ import iconPeche from "../public/icones/fishing_orange.png"
 import iconChasse from "../public/icones/hunt_orange.png"
 import iconChalet from "../public/icones/bed_orange.png"
 import iconCamping from "../public/icones/camping_orange.png"
-import iconVtt from "../public/icones/vtt_orange.png"
+import iconQuad from "../public/icones/quad_orange.png"
 import { useEffect, useState } from "react"
 const textPeche = (
 	<p>
 		Situé sur une terre magnifique bordant la rivière du Lièvre, le réservoir
-		aux sables, ainsi que l’immense réservoir du Poisson Blanc, d’une distance
-		de 29 km et parsemée de 148 îles, notre havre de paix est également entouré
-		de 250 lacs. <br />
+		aux sables, ainsi que l’immense réservoir du Poisson Blanc d’une distance de
+		29 km et parsemée de 148 îles, notre havre de paix est également entouré de
+		250 lacs. <br />
 		<br />
 		La pêche y est en abondance et de choix (doré, brochet, truite grise,
 		achigan, ouananiche, perchaude, etc.).
@@ -37,19 +37,19 @@ const textChasse = (
 		<br /> Les chasseurs pourront bénéficier d’un territoire exclusif et non
 		exclusif (Terres de la Couronne) à proximité de nos services. <br />
 		<br />
-		Que ce soit pour la chasse à l’arc, la carabine, poudre noire ou bien
+		Que ce soit pour la chasse à l’arc, la carabine, la poudre noire ou bien à
 		l’arbalète nous pouvons vous offrir le service de mirador et d’appâts.
 		<br />
 		<br />
-		Contactez-nous pour connaître les modalités & conditions.
+		Contactez-nous pour connaître les modalités & les conditions.
 	</p>
 )
 
 const textChalet = (
 	<div>
 		<p>
-			Nos chalets rustiques vous charmeront avec leurs vues superbes sur la
-			Rivière du Lièvre et leurs prix de location peu dispendieux. Ils sont tous
+			Nos chalets rustiques vous charmeront avec leurs vue superbe sur la
+			Rivière du Lièvre et leur prix de location peu dispendieux. Ils sont tous
 			meublés et la vaisselle est incluse.
 			<br />
 			<br /> Vous devez apporter:
@@ -78,7 +78,7 @@ const textVtt = (
 		membre de la Fédération Québécoise des Clubs Quads. <br />
 		<br />
 		Venez saisir les vues imprenables du sommet de la Montagne du Diable ainsi
-		que les nombreux panoramas de montagnes & lacs, il ne faut surtout pas
+		que les nombreux panoramas de montagnes & lacs. Il ne faut surtout pas
 		manquer les merveilleuses richesses colorées que la saison d’automne nous
 		procure.
 	</p>
@@ -142,10 +142,10 @@ const services = () => {
 					sousTitre={"(Saisonnier et Journalier)"}
 				/>
 				<ImgRight
-					icon={iconVtt}
+					icon={iconQuad}
 					introPageImg={vttImg}
 					text={textVtt}
-					titre={"V.T.T"}
+					titre={"V.T.T."}
 				/>
 			</main>
 			<Footer />

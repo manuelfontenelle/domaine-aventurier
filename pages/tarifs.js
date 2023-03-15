@@ -26,128 +26,137 @@ import TarifForfait2 from "@/components/TarifForfait2"
 import { useEffect, useState } from "react"
 
 const textCerf = (
-	<p className="mt-5 text-md leading-6">
+	<p className="mt-2 text-md leading-6">
 		<span className="font-bold uppercase">
 			Forfait 3 nuitées + 4 jours de chasse
 		</span>
-		<span className="font-bold text-[#ff7f00] block "> 550$/pers </span>
+		<span className="font-bold text-[#ff7f00] block ">550$ +tx / Personne</span>
 		Hébergement inclus <br />
 	</p>
 )
 const textDindon = (
-	<p className="mt-5 text-md leading-6">
+	<p className="mt-2 text-md leading-6">
 		<span className="font-bold uppercase">
 			Forfait 3 nuitées, 2 matinées + guide
 		</span>
 		<span className="font-bold text-[#ff7f00] block ">
-			900.00$ + taxes / personne
+			900.00$ +tx / Personne
 		</span>
-		Personnes additionnelles 450.00$ + tx
-		<br />
-		Leurre, tente
+		Personne additionnelle 450$ +tx
+		<br /> <br />
+		Leurres, tente
 		<br />
 	</p>
 )
 const textSauvagine = (
-	<p className="mt-5 text-md leading-6">
+	<p className="mt-2 text-md leading-6">
 		<span className="font-bold uppercase">
-			Forfait 2 nuitées + 2 matinées avec guide.
+			Forfait 2 nuitées + 2 matinées avec guide
 		</span>
 		<span className="font-bold text-[#ff7f00] block ">
-			600.00$ plus tx / 1 personnes
+			600.00$ +tx / Personne
 		</span>
-		Personne additionnel 300$
-		<br />
-		Leurre, tente
+		Personne additionnelle 300$ +tx
+		<br /> <br />
+		Leurres, tente
 		<br />
 	</p>
 )
 const textOurs = (
-	<p className="mt-5 text-md leading-6">
+	<p className="mt-2 text-md leading-6">
 		<span className="font-bold uppercase">
 			Forfait 3 nuitées + 2 jours de chasse
 		</span>
 		<span className="font-bold text-[#ff7f00] block ">
-			750.00$ +tx / personnes
+			750.00$ +tx / Personne
 		</span>
-		Personnes additionnelles 500.00$
-		<br />
+		Personne additionnelle 500$ +tx
+		<br /> <br />
 		Sites appâtés, cache, tente
 		<br />
 	</p>
 )
 
 const textPeche = (
-	<p className="mt-5 text-md leading-6">
+	<p className="mt-2 text-md leading-6">
 		<span className="font-bold uppercase">
 			Forfait 2 nuitées + 3 jours de pêche
 		</span>
 		<span className="font-bold text-[#ff7f00] block">
-			550.00$ +tx / personnes
+			550.00$ +tx / Personne
 		</span>
 		<br />
 		<span className="font-bold uppercase">Forfait 1 semaine</span>
 		<span className="font-bold text-[#ff7f00] block">
-			1100.00$ +tx / personnes
+			1100.00$ +tx / Personne
 		</span>
+		<br />
 		Hébergement inclus + Embarcation
 	</p>
 )
 
 const textQuad = (
-	<p className="mt-5 text-md leading-6">
-		2 nuits/3 jours de quad pour
-		<span className="font-bold text-[#ff7f00]"> 550$/pers </span>
-		inclus la literie et repas pré-cuisinés
+	<p className="mt-2 text-md leading-6">
+		<span className="font-bold uppercase">
+			Forfait 2 nuitées + 3 jours de quad
+		</span>
+		<span className="font-bold text-[#ff7f00] block">
+			550.00$ +tx / Personne
+		</span>
 		<br />
+		<span className="font-bold uppercase">Forfait 1 semaine</span>
+		<span className="font-bold text-[#ff7f00] block">1100$ +tx / Personne</span>
 		<br />
-		Forfait 1 semaine
-		<span className="font-bold text-[#ff7f00] "> 1100$/pers </span>
-		inclus la literie et repas pré-cuisinés
+		Inclus la literie et repas pré-cuisinés
 	</p>
 )
 
 const textForfaitVagabond = (
 	<p className="mt-2 text-md leading-6">
-		Comprends: hébergement 1 nuit, literies, service de repas pré-cuisinés à la
-		carte
+		Comprend: Hébergement 1 nuit, literie, service de repas pré-cuisinés à la
+		carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
-			100$/nuit/pers/semaine seulement.
+			100$ +tx / Personne / Nuit - Semaine seulement
 		</span>
 	</p>
 )
 
 const textForfaitDebarcadaire = (
 	<p className="mt-2 text-md leading-6">
-		Comprends: hébergement (2 nuits) 1 nuit à votre arrivée et 1 nuit à votre
-		départ, literies, stationnement pour remorque, service de repas pré-cuisinés
+		Comprend: Hébergement (2 nuits), 1 nuit à votre arrivée et 1 nuit à votre
+		départ, literie, stationnement pour remorque, service de repas pré-cuisinés
 		à la carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
-			En semaine 120$/nuits week-end 160$/nuits
+			En semaine = 120$ +tx / Personne / Nuit
+			<br />
+			Week-end = 160$ +tx / Personne / Nuit
 		</span>
 	</p>
 )
 
 const textForfaitTouriste = (
 	<p className="mt-2 text-md leading-6">
-		Comprends: hébergement minimum 3 nuits, literies, service de repas
-		pré-cuisinés à la carte
+		Comprend: Hébergement minimum 3 nuits, literie, service de repas
+		pré-cuisinés à la carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
-			En semaine 110$/ nuits weekend 150$/nuits
+			En semaine = 110$ +tx / Personne / Nuit
+			<br />
+			Week-end = 150$ +tx / Personne / Nuit
 		</span>
 	</p>
 )
 
 const textForfaitAventurier = (
 	<p className="mt-2 text-md leading-6">
-		Comprends: hébergement 3 nuits,2 jours de pêche blanche tout équipés, repas
-		pré-cuisinés à la carte
+		Comprend: Hébergement 3 nuits, 2 jours de pêche blanche tout équipé, repas
+		pré-cuisinés à la carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
-			En semaine 275$/nuits week-end 300$/ nuits
+			En semaine = 275$ +tx / Personne / Nuit <br />
+			Week-end = 300$ +tx / Personne / Nuit
 		</span>
 	</p>
 )
@@ -223,7 +232,7 @@ const tarifs = () => {
 				</section>
 
 				<section className="font-bold text-2xl container text-center py-10">
-					<h2 className="text-[#79cf00]">Forfait pêche 2023-2024</h2>
+					<h2 className="text-[#79cf00]">Forfaits pêche 2023-2024</h2>
 				</section>
 				<section id="peche">
 					<ImgRightTarif
@@ -235,7 +244,7 @@ const tarifs = () => {
 				</section>
 
 				<section className="font-bold text-2xl container text-center py-10">
-					<h2 className="text-[#79cf00]">Forfait Quad-Motoneige 2023-2024</h2>
+					<h2 className="text-[#79cf00]">Forfaits Quad-Motoneige 2023-2024</h2>
 				</section>
 				<section id="motoneige">
 					<ImgRightTarif
@@ -295,8 +304,8 @@ const tarifs = () => {
 											Nombre de chambres
 										</th>
 										<th className="border border-slate-300 p-2">Personnes</th>
-										<th className="border border-slate-300 p-2">Jours</th>
-										<th className="border border-slate-300 p-2">Semaine</th>
+										<th className="border border-slate-300 p-2">Par Jour</th>
+										<th className="border border-slate-300 p-2">Par Semaine</th>
 									</tr>
 								</thead>
 								<tbody className="text-xs md:text-sm">
@@ -341,7 +350,7 @@ const tarifs = () => {
 										<td className="border border-slate-300 p-2">Chalet #6</td>
 										<td className="border border-slate-300 p-2">1</td>
 										<td className="border border-slate-300 p-2">2-6</td>
-										<td className="border border-slate-300 p-2">150$</td>
+										<td className="border border-slate-300 p-2">160$</td>
 										<td className="border border-slate-300 p-2">1100$</td>
 									</tr>
 									<tr>
