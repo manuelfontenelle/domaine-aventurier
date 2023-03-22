@@ -25,6 +25,17 @@ import ImgRightTarifWhite from "../components/ImgRightTarifWhite"
 import TarifForfait2 from "@/components/TarifForfait2"
 import { useEffect, useState } from "react"
 
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+
+export async function getStaticProps({ locale }) {
+	return {
+		props: {
+			...(await serverSideTranslations(locale, ["common", "nav"])),
+			// Will be passed to the page component as props
+		},
+	}
+}
+
 const textCerf = (
 	<p className="mt-2 text-md leading-6">
 		<span className="font-bold uppercase">
