@@ -18,7 +18,7 @@ import iconCamping from "../public/icones/camping_orange.png"
 import iconQuad from "../public/icones/quad_orange.png"
 import { useEffect, useState } from "react"
 
-import { useTranslation } from "next-i18next"
+// import { useTranslation } from "next-i18next"
 import { serverSideTranslations } from "next-i18next/serverSideTranslations"
 
 export async function getStaticProps({ locale }) {
