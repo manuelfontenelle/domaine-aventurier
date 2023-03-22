@@ -12,8 +12,8 @@ module.exports = {
 	nextConfig,
 
 	i18n: {
-		locales: ["en", "fr"],
-		defaultLocale: "fr",
+		locales: i18n.locales,
+		defaultLocale: i18n.defaultLocale,
 	},
 
 	sassOptions: {
