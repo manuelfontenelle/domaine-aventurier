@@ -3,5 +3,7 @@ module.exports = {
 		locales: ["en", "fr"],
 		defaultLocale: "fr",
 	},
-	react: { useSuspense: false }, //this line
+	fallbackLng: {
+		default: ["fr"],
+	},
 }
