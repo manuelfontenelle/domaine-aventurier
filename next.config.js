@@ -15,6 +15,7 @@ module.exports = {
 		locales: i18n.locales,
 		defaultLocale: i18n.defaultLocale,
 	},
+	react: { useSuspense: false },
 
 	sassOptions: {
 		includePaths: [path.join(__dirname, "styles")],
