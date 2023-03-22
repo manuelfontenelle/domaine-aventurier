@@ -93,7 +93,7 @@ const NavBar = ({ scroll }) => {
 							</li>
 						</Link> */}
 
-						{/* <li className="ml-10 text-sm py-4">
+						<li className="ml-10 text-sm py-4">
 							<Link href="/" className="">
 								FR
 							</Link>
@@ -101,9 +101,9 @@ const NavBar = ({ scroll }) => {
 							<Link href="/en" className="">
 								EN
 							</Link>
-						</li> */}
+						</li>
 
-						<li className="ml-10 text-sm py-4 flex  barreOblique">
+						{/* <li className="ml-10 text-sm py-4 flex  barreOblique">
 							{locales.map((l) => (
 								<Link
 									key={l}
@@ -114,7 +114,7 @@ const NavBar = ({ scroll }) => {
 									{l}
 								</Link>
 							))}
-						</li>
+						</li> */}
 					</ul>
 					<div
 						onClick={handleNav}
