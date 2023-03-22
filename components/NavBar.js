@@ -9,9 +9,12 @@ import { ImFacebook } from "react-icons/im"
 
 import logo from "../public/logo.png"
 // import GB from "country-flag-icons/react/3x2/GB"
+import { useTranslation } from "next-i18next"
 
 const NavBar = ({ scroll }) => {
+	const { t } = useTranslation("nav")
 	// detection page active pour Style Nav
+	const { locale, locales } = useRouter()
 	const router = useRouter()
 	const currentRoute = router.pathname
 
@@ -31,6 +34,7 @@ const NavBar = ({ scroll }) => {
 			}`}
 			id="navbar"
 		>
+			<h1 className="text-[#ffffff]">{locale}</h1>
 			<div className="container flex items-center w-full h-full justify-between font-OpenSans">
 				<Link href="/">
 					<Image
@@ -47,7 +51,7 @@ const NavBar = ({ scroll }) => {
 							className={currentRoute === "/" ? "active" : "nonActive"}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
-								Accueil
+								{t("nav.accueil")}
 							</li>
 						</Link>
 						<Link
@@ -89,7 +93,7 @@ const NavBar = ({ scroll }) => {
 							</li>
 						</Link> */}
 
-						<li className="ml-10 text-sm py-4">
+						{/* <li className="ml-10 text-sm py-4">
 							<Link href="/" className="">
 								FR
 							</Link>
@@ -97,6 +101,19 @@ const NavBar = ({ scroll }) => {
 							<Link href="/en" className="">
 								EN
 							</Link>
+						</li> */}
+
+						<li className="ml-10 text-sm py-4 flex  barreOblique">
+							{locales.map((l) => (
+								<Link
+									key={l}
+									href={currentRoute}
+									locale={l}
+									className="uppercase"
+								>
+									{l}
+								</Link>
+							))}
 						</li>
 					</ul>
 					<div

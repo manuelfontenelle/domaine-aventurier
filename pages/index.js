@@ -13,7 +13,23 @@ import Map from "@/components/Map"
 import { useEffect, useState } from "react"
 const inter = Inter({ subsets: ["latin"] })
 
+// rajout de ce bloc sur toute les pages
+import { useTranslation } from "next-i18next"
+import { serverSideTranslations } from "next-i18next/serverSideTranslations"
+
+export async function getStaticProps({ locale }) {
+	return {
+		props: {
+			...(await serverSideTranslations(locale, ["common", "nav"])),
+			// Will be passed to the page component as props
+		},
+	}
+}
+// rajout de ce bloc sur toute les pages
+
 export default function Home() {
+	const { t } = useTranslation("common")
+
 	const [scroll, setScroll] = useState(false)
 	useEffect(() => {
 		window.addEventListener("scroll", () => {
@@ -36,6 +52,9 @@ export default function Home() {
 			</Head>
 			<NavBar scroll={scroll} />
 			<main>
+				<p className="text-[#ffffff] absolute z-[1000]">
+					{t("homepage.title")}
+				</p>
 				<RightBar />
 				<Intro />
 				<Galery />
