@@ -19,7 +19,7 @@ const ForfaitEn = ({ forfaitImg, forfaitTitle, id }) => {
 			</div>
 
 			<Link
-				href={`/tarifs${id}`}
+				href={`/en/tarifs${id}`}
 				className="absolute bottom-0  w-full  flex justify-center items-center flex-row rounded-b-xl"
 			>
 				<span className="w-[80%] bg-[#79cf00] h-10 rounded-bl-xl text-center font-regular text-sm text-white flex justify-center items-center lg:h-10 lg:w-[80%] xl:text-base">
