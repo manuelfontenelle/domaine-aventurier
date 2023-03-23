@@ -74,9 +74,9 @@ const textCamping = (
 )
 const textVtt = (
 	<p>
-		Les aventuriers de V.T.T. pourront bénéficier de 200 km de sentiers 4
-		saisons entretenus remarquablement par le club local de la municipalité
-		membre de la Fédération Québécoise des Clubs Quads. <br />
+		Les aventuriers de Quad pourront bénéficier de 200 km de sentiers 4 saisons
+		entretenus remarquablement par le club local de la municipalité membre de la
+		Fédération Québécoise des Clubs Quads. <br />
 		<br />
 		Venez saisir les vues imprenables du sommet de la Montagne du Diable ainsi
 		que les nombreux panoramas de montagnes & lacs. Il ne faut surtout pas
