@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import Forfait from "../Forfait"
+import ForfaitEn from "./ForfaitEn"
 import forfait1 from "@/public/icones/chevreuil.png"
 import forfait2 from "@/public/icones/dinde.png"
 import forfait3 from "@/public/icones/ours.png"
@@ -62,20 +62,20 @@ const ContentBlockEn = () => {
 					</div>
 					<div className="pt-10">
 						<h2 className="font-OpenSans font-black text-xl uppercase title title--green">
-							Nos forfaits :
+							Our packages :
 						</h2>
 						<div className="flex  flex-col mt-10 mb-7 gap-8 md:h-[190px] md:flex-row">
-							<Forfait
+							<ForfaitEn
 								forfaitImg={forfait2}
 								forfaitTitle={"Turkey"}
 								id="#dindon"
 							/>
-							<Forfait
+							<ForfaitEn
 								forfaitImg={forfait1}
 								forfaitTitle={"Deer"}
 								id="#chevreuil"
 							/>
-							<Forfait
+							<ForfaitEn
 								forfaitImg={forfait6}
 								forfaitTitle={"Waterfowl"}
 								id="#sauvagine"
@@ -83,13 +83,17 @@ const ContentBlockEn = () => {
 						</div>
 
 						<div className="flex flex-col  gap-8 md:h-[190px] md:flex-row">
-							<Forfait forfaitImg={forfait3} forfaitTitle={"Bear"} id="#ours" />
-							<Forfait
+							<ForfaitEn
+								forfaitImg={forfait3}
+								forfaitTitle={"Bear"}
+								id="#ours"
+							/>
+							<ForfaitEn
 								forfaitImg={forfait4}
 								forfaitTitle={"Fishing"}
 								id="#peche"
 							/>
-							<Forfait
+							<ForfaitEn
 								forfaitImg={forfait5}
 								forfaitTitle={"Snowmobile – ATV"}
 								id="#motoneige"
