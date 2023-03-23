@@ -79,7 +79,7 @@ const contact = () => {
 										<span className="mt-1 block">
 											514-518-2643
 											<span className="text-sm md:ml-1 block md:inline-block">
-												(Cellulaire : Appel / SMS)
+												(Cellular: Call / SMS)
 											</span>
 										</span>
 									</p>
