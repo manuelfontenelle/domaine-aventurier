@@ -228,7 +228,7 @@ const FormulaireEn = () => {
 					>
 						Send
 					</button>
-					<div className="" id="loader">
+					<div className="hidden" id="loader">
 						<div className="mx-auto flex justify-center">
 							<ThreeDots
 								id="loaderId"
