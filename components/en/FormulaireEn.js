@@ -3,7 +3,7 @@ import { useState } from "react"
 import axios from "axios"
 import { ThreeDots } from "react-loader-spinner"
 
-const Formulaire = () => {
+const FormulaireEn = () => {
 	const [prenom, setPrenom] = useState("")
 	const [nom, setNom] = useState("")
 	const [phone, setPhone] = useState("")
@@ -98,7 +98,7 @@ const Formulaire = () => {
           focus:text-black focus:bg-gray-50 focus:border-gray-600 focus:shadow-none focus:outline-none"
 								id="exampleInput123"
 								aria-describedby="emailHelp123"
-								placeholder="Prénom"
+								placeholder="First name"
 								onChange={(e) => setPrenom(e.target.value)}
 							/>
 						</div>
@@ -122,7 +122,7 @@ const Formulaire = () => {
           focus:text-black focus:bg-gray-50 focus:border-gray-600 focus:shadow-none focus:outline-none"
 								id="exampleInput124"
 								aria-describedby="emailHelp124"
-								placeholder="Nom"
+								placeholder="Last name"
 								onChange={(e) => setNom(e.target.value)}
 							/>
 						</div>
@@ -149,7 +149,7 @@ const Formulaire = () => {
         focus:text-black focus:bg-gray-50 focus:border-gray-600 focus:shadow-none focus:outline-none
       "
 							id="exampleTel0"
-							placeholder="Téléphone"
+							placeholder="Phone"
 							onChange={(e) => setPhone(e.target.value)}
 						/>
 					</div>
@@ -198,7 +198,7 @@ const Formulaire = () => {
      "
 							id="exampleFormControlTextarea13"
 							rows="3"
-							placeholder="Votre message..."
+							placeholder="Your message..."
 							onChange={(e) => setMessage(e.target.value)}
 						></textarea>
 					</div>
@@ -226,9 +226,9 @@ const Formulaire = () => {
      duration-150
      ease-in-out btn-form"
 					>
-						Envoyer
+						Send
 					</button>
-					<div className="hidden" id="loader">
+					<div className="" id="loader">
 						<div className="mx-auto flex justify-center">
 							<ThreeDots
 								id="loaderId"
@@ -249,4 +249,4 @@ const Formulaire = () => {
 	)
 }
 
-export default Formulaire
+export default FormulaireEn

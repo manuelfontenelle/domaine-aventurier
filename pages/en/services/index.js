@@ -1,7 +1,7 @@
 import React from "react"
 import Head from "next/head"
 import Image from "next/image"
-import NavBar from "@/components/NavBar"
+import NavBarEn from "@/components/en/NavBarEn"
 import Footer from "@/components/Footer"
 import ImgLeft from "@/components/ImgLeft"
 import ImgRight from "@/components/ImgRight"
@@ -20,68 +20,69 @@ import { useEffect, useState } from "react"
 
 const textPeche = (
 	<p>
-		Situé sur une terre magnifique bordant la rivière du Lièvre, le réservoir
-		aux sables, ainsi que l’immense réservoir du Poisson Blanc d’une distance de
-		29 km et parsemée de 148 îles, notre havre de paix est également entouré de
-		250 lacs. <br />
+		Located on a magnificent land bordering the Lièvre River, the Sables
+		Reservoir, as well as the immense Poisson Blanc Reservoir, 29 km long and
+		scattered with 148 islands, our haven of peace is also surrounded by 250
+		lakes. <br />
 		<br />
-		La pêche y est en abondance et de choix (doré, brochet, truite grise,
-		achigan, ouananiche, perchaude, etc.).
+		Fishing is abundant and varied (walleye, pike, lake trout, bass, landlocked
+		salmon, yellow perch, etc.).
 	</p>
 )
 
 const textChasse = (
 	<p>
-		La très forte densité de Cerfs de Virginie dans la zone 10 Ouest profite
-		considérablement aux adeptes de la chasse.
+		The heavy density of white-tailed deer in Zone 10 West is a great benefit to
+		hunters.
 		<br />
-		<br /> Les chasseurs pourront bénéficier d’un territoire exclusif et non
-		exclusif (Terres de la Couronne) à proximité de nos services. <br />
-		<br />
-		Que ce soit pour la chasse à l’arc, la carabine, la poudre noire ou bien à
-		l’arbalète nous pouvons vous offrir le service de mirador et d’appâts.
+		<br /> They will be able to benefit from an exclusive and non-exclusive
+		territory (Crown Lands) near our services.
 		<br />
 		<br />
-		Contactez-nous pour connaître les modalités & les conditions.
+		Whether it is for bows, rifle, black powder or crossbow hunting, we can
+		provide you with a stand and baiting services.
+		<br />
+		<br />
+		Contact us for terms and conditions.
 	</p>
 )
 
 const textChalet = (
 	<div>
 		<p>
-			Nos chalets rustiques vous charmeront avec leurs vue superbe sur la
-			Rivière du Lièvre et leur prix de location peu dispendieux. Ils sont tous
-			meublés et la vaisselle est incluse.
+			Our rustic cottage will seduce you with their superb view on the Lièvre
+			River and their low prices. They are all furnished and dishes are
+			provided.
 			<br />
-			<br /> Vous devez apporter:
+			<br /> You have to bring:
 		</p>
 
 		<ul>
-			<li>- Literie </li>
-			<li>- Serviettes de bain</li>
+			<li>- Bedding</li>
+			<li>- Bath towels</li>
 		</ul>
 	</div>
 )
 const textCamping = (
 	<p>
-		Profitez de notre site pourvu d’arbres matures, pour vous offrir la
-		tranquillité ainsi que les joies du plein air. <br />
+		Take advantage of our site with mature trees, to offer you the tranquility
+		and the joys of the outdoors.
 		<br />
-		La majorité de nos terrains comprennent l’eau, l’électricité et les égouts.
-		Nous possédons également sur notre site un bloc sanitaire avec douches,
-		toilettes (papier non inclus) et buanderie.
+		<br />
+		The majority of our land includes water, electricity and sewer. We also have
+		on our site a sanitary block with showers, toilets (paper not included) and
+		laundry room.
 	</p>
 )
 const textVtt = (
 	<p>
-		Les aventuriers de V.T.T. pourront bénéficier de 200 km de sentiers 4
-		saisons entretenus remarquablement par le club local de la municipalité
-		membre de la Fédération Québécoise des Clubs Quads. <br />
+		ATV adventurers will enjoy 200 km of 4-season trails that are remarkably
+		well maintained by the municipality's local club, member of the Fédération
+		Québécoise des Clubs Quads. <br />
 		<br />
-		Venez saisir les vues imprenables du sommet de la Montagne du Diable ainsi
-		que les nombreux panoramas de montagnes & lacs. Il ne faut surtout pas
-		manquer les merveilleuses richesses colorées que la saison d’automne nous
-		procure.
+		Come and take in the breathtaking views from the top of Devil&#39;s Mountain
+		as well as the many mountain and lake panoramas. Don&#39;t miss the
+		wonderful colours that the fall season brings.
 	</p>
 )
 
@@ -99,7 +100,7 @@ const services = () => {
 				<meta name="description" content="Domaine Aventurier - Services" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
-			<NavBar scroll={scroll} />
+			<NavBarEn scroll={scroll} />
 			<main className="min-h-screen">
 				<section className="pt-20">
 					<div className="h-96 relative">
@@ -121,32 +122,32 @@ const services = () => {
 					icon={iconPeche}
 					introPageImg={pecheImg}
 					text={textPeche}
-					titre={"Pêche"}
+					titre={"Fishing"}
 				/>
 				<ImgLeft
 					icon={iconChasse}
 					introPageImg={chasseImg}
 					text={textChasse}
-					titre={"Chasse"}
+					titre={"Hunting"}
 				/>
 				<ImgRight
 					icon={iconChalet}
 					introPageImg={chaletImg}
 					text={textChalet}
-					titre={"Chalets"}
+					titre={"Cabins"}
 				/>
 				<ImgLeft
 					icon={iconCamping}
 					introPageImg={campingImg}
 					text={textCamping}
-					titre={"Camping & Caravaning"}
-					sousTitre={"(Saisonnier et Journalier)"}
+					titre={"Camping & Caravanning"}
+					sousTitre={"(Seasonal and Daily)"}
 				/>
 				<ImgRight
 					icon={iconQuad}
 					introPageImg={vttImg}
 					text={textVtt}
-					titre={"Quad"}
+					titre={"ATV"}
 				/>
 			</main>
 			<Footer />
