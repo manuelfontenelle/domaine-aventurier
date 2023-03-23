@@ -19,7 +19,7 @@ const ContentBlockEn = () => {
 				<div className=" xl:pr-8 md:absolute md:ml-[39%]   2xl:ml-[37%] ">
 					<div className="pt-10 ">
 						<h2 className="font-OpenSans font-black text-xl uppercase title title--orange">
-							ABOUT US ?
+							ABOUT US
 						</h2>
 
 						<p className="text-md leading-6  md:text-justify mt-7 xl:leading-7 xl:text-lg">
