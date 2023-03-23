@@ -106,7 +106,7 @@ const services = () => {
 					<div className="h-96 relative">
 						<div className="container z-10">
 							<h1 className=" font-OpenSans absolute bottom-10 text-white font-black text-4xl uppercase title title--orangeBig">
-								Nos services
+								Our services
 							</h1>
 						</div>
 
