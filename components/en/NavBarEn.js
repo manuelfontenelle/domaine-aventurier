@@ -104,7 +104,7 @@ const NavBarEn = ({ scroll }) => {
 								FR
 							</Link>
 							|
-							<Link href="/en" className="">
+							<Link href="/en" className="active">
 								EN
 							</Link>
 						</li>

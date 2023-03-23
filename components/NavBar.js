@@ -95,11 +95,11 @@ const NavBar = ({ scroll }) => {
 						</Link> */}
 
 						<li className="ml-10 text-sm py-4">
-							<Link href="/" className="">
+							<Link href="/" className="active">
 								FR
 							</Link>
 							|
-							<Link href="/en/" className="">
+							<Link href="/en" className="">
 								EN
 							</Link>
 						</li>
