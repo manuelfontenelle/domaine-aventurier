@@ -5,7 +5,7 @@ import { Inter } from "@next/font/google"
 import NavBarEn from "@/components/en/NavBarEn"
 import Footer from "@/components/Footer"
 import IntroEn from "@/components/en/IntroEn"
-import RightBar from "@/components/RightBar"
+import RightBarEn from "@/components/en/RightBarEn"
 import Galery from "@/components/Galery"
 import ContentBlockEn from "@/components/en/ContentBlockEn"
 import ContentBlock2En from "@/components/en/ContentBlock2En"
@@ -55,7 +55,7 @@ export default function Home() {
 				<p className="text-[#ffffff] absolute z-[1000]">
 					{/* {t("homepage.title")} */}
 				</p>
-				<RightBar />
+				<RightBarEn />
 				<IntroEn />
 				<Galery />
 				<ContentBlockEn />

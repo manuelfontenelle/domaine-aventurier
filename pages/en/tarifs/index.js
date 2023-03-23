@@ -268,7 +268,7 @@ const tarifs = () => {
 
 				{/* TABLEAUX */}
 				<div className=" bg-slate-50 py-10">
-					<section className="container mb-10">
+					<section className="container mb-10" id="chalet">
 						<div>
 							<div className="flex flex-row justify-start items-center mb-5">
 								<div className="">
@@ -371,7 +371,7 @@ const tarifs = () => {
 						</div>
 					</section>
 
-					<section className="container mb-10">
+					<section className="container mb-10" id="camping">
 						<div>
 							<div className="flex flex-row justify-start items-center mb-5">
 								<div className="">
