@@ -12,8 +12,7 @@ const Forfait = ({ forfaitImg, forfaitTitle, id }) => {
 					className="w-[60px] xl:w-[60px]"
 				></Image>
 				<h3 className=" text-left text-md font-bold leading-7 xl:text-center xl:text-base">
-					Forfait
-					<span className="block lg:inline-block mt-[-6px] lg:ml-[5px]">
+					<span className=" lg:inline-block mt-[-6px] lg:ml-[5px]">
 						{forfaitTitle}
 					</span>
 				</h3>

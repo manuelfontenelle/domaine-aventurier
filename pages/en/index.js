@@ -2,14 +2,14 @@ import Head from "next/head"
 import Image from "next/image"
 import { Inter } from "@next/font/google"
 // import styles from "@/styles/Home.module.css"
-import NavBar from "@/components/NavBar"
+import NavBarEn from "@/components/en/NavBarEn"
 import Footer from "@/components/Footer"
-import Intro from "@/components/Intro"
+import IntroEn from "@/components/en/IntroEn"
 import RightBar from "@/components/RightBar"
 import Galery from "@/components/Galery"
-import ContentBlock from "@/components/ContentBlock"
-import ContentBlock2 from "@/components/ContentBlock2"
-import Map from "@/components/Map"
+import ContentBlockEn from "@/components/en/ContentBlockEn"
+import ContentBlock2En from "@/components/en/ContentBlock2En"
+import MapEn from "@/components/en/MapEn"
 import { useEffect, useState } from "react"
 const inter = Inter({ subsets: ["latin"] })
 
@@ -40,27 +40,27 @@ export default function Home() {
 		<>
 			<Head>
 				<title>
-					Domaine Aventurier - Pourvoirie chasse et pêche dans les Hautes
+					Domaine Aventurier - Upper Laurentians Hunting and fishing outfitter
 					Laurentides
 				</title>
 				<meta
 					name="description"
-					content="Pourvoirie chasse et pêche dans les Hautes Laurentides"
+					content="Upper Laurentians Hunting and fishing outfitter"
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
 			</Head>
-			<NavBar scroll={scroll} />
+			<NavBarEn scroll={scroll} />
 			<main>
 				<p className="text-[#ffffff] absolute z-[1000]">
 					{/* {t("homepage.title")} */}
 				</p>
 				<RightBar />
-				<Intro />
+				<IntroEn />
 				<Galery />
-				<ContentBlock />
-				<ContentBlock2 />
-				<Map />
+				<ContentBlockEn />
+				<ContentBlock2En />
+				<MapEn />
 			</main>
 			<Footer />
 		</>

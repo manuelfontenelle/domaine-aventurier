@@ -12,17 +12,6 @@ import icon2 from "../public/icones/phone_black.png"
 import logo from "../public/logo.png"
 import { useEffect, useState } from "react"
 
-import { serverSideTranslations } from "next-i18next/serverSideTranslations"
-
-export async function getStaticProps({ locale }) {
-	return {
-		props: {
-			...(await serverSideTranslations(locale, ["common", "nav"])),
-			// Will be passed to the page component as props
-		},
-	}
-}
-
 const contact = () => {
 	const [scroll, setScroll] = useState(false)
 	useEffect(() => {

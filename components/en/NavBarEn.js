@@ -7,12 +7,13 @@ import React, { useState } from "react"
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai"
 import { ImFacebook } from "react-icons/im"
 
-import logo from "../public/logo.png"
+import logo from "../../public/logo.png"
 // import GB from "country-flag-icons/react/3x2/GB"
 // import { useTranslation } from "next-i18next"
 
-const NavBar = ({ scroll }) => {
+const NavBarEn = ({ scroll }) => {
 	// const { t } = useTranslation("nav")
+
 	// detection page active pour Style Nav
 	const { locale, locales } = useRouter()
 	const router = useRouter()
@@ -36,7 +37,7 @@ const NavBar = ({ scroll }) => {
 		>
 			{/* <h1 className="text-[#ffffff]">{locale}</h1> */}
 			<div className="container flex items-center w-full h-full justify-between font-OpenSans">
-				<Link href="/">
+				<Link href="/en">
 					<Image
 						src={logo}
 						alt="Logo Domaine Aventurier"
@@ -47,33 +48,37 @@ const NavBar = ({ scroll }) => {
 				<div>
 					<ul className="hidden font-bold text-[#ffffff] md:flex">
 						<Link
-							href="/"
-							className={currentRoute === "/" ? "active" : "nonActive"}
+							href="/en"
+							className={currentRoute === "/en" ? "active" : "nonActive"}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
 								{/* {t("nav.accueil")} */}
-								Accueil
+								Home
 							</li>
 						</Link>
 						<Link
-							href="/services"
-							className={currentRoute === "/services" ? "active" : "nonActive"}
+							href="/en/services"
+							className={
+								currentRoute === "/en/services" ? "active" : "nonActive"
+							}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
 								Services
 							</li>
 						</Link>
 						<Link
-							href="/tarifs"
-							className={currentRoute === "/tarifs" ? "active" : "nonActive"}
+							href="/en/tarifs"
+							className={currentRoute === "/en/tarifs" ? "active" : "nonActive"}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
-								Tarifs
+								Prices
 							</li>
 						</Link>
 						<Link
-							href="/contact"
-							className={currentRoute === "/contact" ? "active" : "nonActive"}
+							href="/en/contact"
+							className={
+								currentRoute === "/en/contact" ? "active" : "nonActive"
+							}
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
 								Contact
@@ -99,7 +104,7 @@ const NavBar = ({ scroll }) => {
 								FR
 							</Link>
 							|
-							<Link href="/en/" className="">
+							<Link href="/en" className="">
 								EN
 							</Link>
 						</li>
@@ -137,7 +142,7 @@ const NavBar = ({ scroll }) => {
 				>
 					<div>
 						<div className="flex w-full items-center justify-between">
-							<Link href="/">
+							<Link href="/en">
 								<Image
 									src={logo}
 									width="125"
@@ -156,16 +161,16 @@ const NavBar = ({ scroll }) => {
 					</div>
 					<div className="py-4  flex-col font-OpenSans ">
 						<ul className="uppercase font-bold">
-							<Link href="/">
-								<li className="py-4 text-md">Accueil</li>
+							<Link href="/en">
+								<li className="py-4 text-md">Home</li>
 							</Link>
-							<Link href="/services">
+							<Link href="/en/services">
 								<li className="py-4 text-md">Services</li>
 							</Link>
-							<Link href="/tarifs">
-								<li className="py-4 text-md">Tarifs</li>
+							<Link href="/en/tarifs">
+								<li className="py-4 text-md">Prices</li>
 							</Link>
-							<Link href="/contact">
+							<Link href="/en/contact">
 								<li className="py-4 text-md">Contact</li>
 							</Link>
 							<a
@@ -185,11 +190,6 @@ const NavBar = ({ scroll }) => {
 									EN
 								</Link>
 							</li>
-							{/* <Link href="/">
-								<li className="py-4 text-md">
-									<GB title="United States" className=" h-4" />
-								</li>
-							</Link> */}
 						</ul>
 					</div>
 				</div>
@@ -198,4 +198,4 @@ const NavBar = ({ scroll }) => {
 	)
 }
 
-export default NavBar
+export default NavBarEn
