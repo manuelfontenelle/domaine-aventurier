@@ -99,11 +99,23 @@ nav {
 	z-index: -1;
 }
 
-// .barreOblique {
-// 	& a:first-child {
-// 		justify-content: center;
-// 		border-right: 2px solid white;
-// 		padding-right: 11px;
-// 		margin-right: 10px;
-// 	}
-// }
+.barreOblique {
+	& a:first-child {
+		padding-right: 15px;
+		position: relative;
+		&::after {
+			position: absolute;
+			content: "|";
+			padding-left: 4px;
+			color: white;
+			top: -1px;
+		}
+	}
+}
+
+.btn-form {
+	&.disabled-btn {
+		cursor: wait;
+		opacity: 0.5;
+	}
+}
