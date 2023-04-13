@@ -10,6 +10,7 @@ import FormulaireEn from "@/components/en/FormulaireEn"
 import icon1 from "@/public/icones/pin_black.png"
 import icon2 from "@/public/icones/phone_black.png"
 import logo from "@/public/logo.png"
+import ogImg from "@/public/og-background.jpg"
 import { useEffect, useState } from "react"
 
 const contact = () => {
@@ -25,6 +26,18 @@ const contact = () => {
 				<title>Domaine Aventurier - Contact</title>
 				<meta name="description" content="Domaine Aventurier - Contact" />
 				<link rel="icon" href="/favicon.png" />
+				<meta
+					property="og:title"
+					content="Domaine Aventurier - Upper Laurentians Hunting and fishing outfitter"
+				/>
+				<meta
+					property="og:description "
+					content="Renowned for its hunting and fishing sites, Domaine Aventurier is a peaceful place to spend vacations with family or friends."
+				/>
+				<meta property="og:type" content="article" />
+				<meta property="og:url" content="https://www.domaineaventurier.com" />
+				<meta property="og:image" content={ogImg} />
+				<meta property="og:site_name" content="Domaine Aventurier" />
 			</Head>
 			<NavBarEn scroll={scroll} />
 			<main className="min-h-screen">

@@ -10,6 +10,7 @@ import Formulaire from "@/components/Formulaire"
 import icon1 from "../public/icones/pin_black.png"
 import icon2 from "../public/icones/phone_black.png"
 import logo from "../public/logo.png"
+import ogImg from "@/public/og-background.jpg"
 import { useEffect, useState } from "react"
 
 const contact = () => {
@@ -25,6 +26,18 @@ const contact = () => {
 				<title>Domaine Aventurier - Contact</title>
 				<meta name="description" content="Domaine Aventurier - Contact" />
 				<link rel="icon" href="/favicon.png" />
+				<meta
+					property="og:title"
+					content="Domaine Aventurier - Pourvoirie chasse et pêche dans les Hautes Laurentides"
+				/>
+				<meta
+					property="og:description "
+					content="Site renommé pour la chasse et la pêche, le Domaine Aventurier est un endroit paisible pour les vacances en famille ou entre amis."
+				/>
+				<meta property="og:type" content="article" />
+				<meta property="og:url" content="https://www.domaineaventurier.com" />
+				<meta property="og:image" content={ogImg} />
+				<meta property="og:site_name" content="Domaine Aventurier" />
 			</Head>
 			<NavBar scroll={scroll} />
 			<main className="min-h-screen">

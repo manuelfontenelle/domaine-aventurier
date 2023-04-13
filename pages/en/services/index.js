@@ -16,6 +16,7 @@ import iconChasse from "@/public/icones/hunt_orange.png"
 import iconChalet from "@/public/icones/bed_orange.png"
 import iconCamping from "@/public/icones/camping_orange.png"
 import iconQuad from "@/public/icones/quad_orange.png"
+import ogImg from "@/public/og-background.jpg"
 import { useEffect, useState } from "react"
 
 const textPeche = (
@@ -99,6 +100,18 @@ const services = () => {
 				<title>Domaine Aventurier - Services</title>
 				<meta name="description" content="Domaine Aventurier - Services" />
 				<link rel="icon" href="/favicon.png" />
+				<meta
+					property="og:title"
+					content="Domaine Aventurier - Upper Laurentians Hunting and fishing outfitter"
+				/>
+				<meta
+					property="og:description "
+					content="Renowned for its hunting and fishing sites, Domaine Aventurier is a peaceful place to spend vacations with family or friends."
+				/>
+				<meta property="og:type" content="article" />
+				<meta property="og:url" content="https://www.domaineaventurier.com" />
+				<meta property="og:image" content={ogImg} />
+				<meta property="og:site_name" content="Domaine Aventurier" />
 			</Head>
 			<NavBarEn scroll={scroll} />
 			<main className="min-h-screen">
