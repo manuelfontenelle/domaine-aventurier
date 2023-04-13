@@ -16,7 +16,6 @@ import iconChasse from "@/public/icones/hunt_orange.png"
 import iconChalet from "@/public/icones/bed_orange.png"
 import iconCamping from "@/public/icones/camping_orange.png"
 import iconQuad from "@/public/icones/quad_orange.png"
-import ogImg from "@/public/og-background.jpg"
 import { useEffect, useState } from "react"
 
 const textPeche = (
@@ -110,7 +109,10 @@ const services = () => {
 				/>
 				<meta property="og:type" content="article" />
 				<meta property="og:url" content="https://www.domaineaventurier.com" />
-				<meta property="og:image" content={ogImg} />
+				<meta
+					property="og:image"
+					content="https://www.domaineaventurier.com/og-background.jpg"
+				/>
 				<meta property="og:site_name" content="Domaine Aventurier" />
 			</Head>
 			<NavBarEn scroll={scroll} />

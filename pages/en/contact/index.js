@@ -10,7 +10,6 @@ import FormulaireEn from "@/components/en/FormulaireEn"
 import icon1 from "@/public/icones/pin_black.png"
 import icon2 from "@/public/icones/phone_black.png"
 import logo from "@/public/logo.png"
-import ogImg from "@/public/og-background.jpg"
 import { useEffect, useState } from "react"
 
 const contact = () => {
@@ -36,7 +35,10 @@ const contact = () => {
 				/>
 				<meta property="og:type" content="article" />
 				<meta property="og:url" content="https://www.domaineaventurier.com" />
-				<meta property="og:image" content={ogImg} />
+				<meta
+					property="og:image"
+					content="https://www.domaineaventurier.com/og-background.jpg"
+				/>
 				<meta property="og:site_name" content="Domaine Aventurier" />
 			</Head>
 			<NavBarEn scroll={scroll} />

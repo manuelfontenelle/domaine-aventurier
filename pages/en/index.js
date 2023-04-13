@@ -10,7 +10,7 @@ import Galery from "@/components/Galery"
 import ContentBlockEn from "@/components/en/ContentBlockEn"
 import ContentBlock2En from "@/components/en/ContentBlock2En"
 import MapEn from "@/components/en/MapEn"
-import ogImg from "@/public/og-background.jpg"
+
 import { useEffect, useState } from "react"
 const inter = Inter({ subsets: ["latin"] })
 
@@ -46,7 +46,7 @@ export default function Home() {
 				</title>
 				<meta
 					name="description"
-					content="Upper Laurentians Hunting and fishing outfitter"
+					content="Renowned for its hunting and fishing sites, Domaine Aventurier is a peaceful place to spend vacations with family or friends."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
@@ -60,7 +60,11 @@ export default function Home() {
 				/>
 				<meta property="og:type" content="article" />
 				<meta property="og:url" content="https://www.domaineaventurier.com" />
-				<meta property="og:image" content={ogImg} />
+				<meta
+					property="og:image"
+					content="https://www.domaineaventurier.com/og-background.jpg"
+				/>
+				<meta property="og:site_name" content="Domaine Aventurier" />
 			</Head>
 			<NavBarEn scroll={scroll} />
 			<main>

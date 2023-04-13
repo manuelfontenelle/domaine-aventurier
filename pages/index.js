@@ -12,7 +12,6 @@ import ContentBlock2 from "@/components/ContentBlock2"
 import Map from "@/components/Map"
 import { useEffect, useState } from "react"
 const inter = Inter({ subsets: ["latin"] })
-import ogImg from "@/public/og-background.jpg"
 
 //// rajout de ce bloc sur toute les pages
 // import { useTranslation } from "next-i18next"
@@ -46,7 +45,7 @@ export default function Home() {
 				</title>
 				<meta
 					name="description"
-					content="Pourvoirie chasse et pêche dans les Hautes Laurentides"
+					content="Site renommé pour la chasse et la pêche, le Domaine Aventurier est un endroit paisible pour les vacances en famille ou entre amis."
 				/>
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.png" />
@@ -58,9 +57,12 @@ export default function Home() {
 					property="og:description "
 					content="Site renommé pour la chasse et la pêche, le Domaine Aventurier est un endroit paisible pour les vacances en famille ou entre amis."
 				/>
-				<meta property="og:type" content="article" />
+				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://www.domaineaventurier.com" />
-				<meta property="og:image" content={ogImg} />
+				<meta
+					property="og:image"
+					content="https://www.domaineaventurier.com/og-background.jpg"
+				/>
 				<meta property="og:site_name" content="Domaine Aventurier" />
 			</Head>
 			<NavBar scroll={scroll} />
