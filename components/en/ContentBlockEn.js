@@ -52,7 +52,7 @@ const ContentBlockEn = () => {
 								/>
 								<a
 									target="_blank"
-									href="http://www.domaineaventurier.com/wp-content/uploads/p042-046%20Destination%20aventurier.pdf"
+									href="https://www.domaineaventurier.com/destination_aventurier_pdf.pdf"
 									className=" hover:underline"
 								>
 									Destination Chasse et Pêche: Le Domaine Aventurier.
