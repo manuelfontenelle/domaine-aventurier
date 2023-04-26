@@ -10,7 +10,7 @@ const IntroEn = () => {
 	return (
 		<section className="relative min-h-screen w-full h-full  bg-cover bg-no-repeat bg-center md:bg-[center] ">
 			<div className="flex justify-center  flex-col h-full gap-3 min-h-screen px-5 lg:items-center">
-				<h1 className="font-OpenSans font-bold text-white text-5xl lg:text-7xl">
+				<h1 className="font-OpenSans font-bold text-white text-5xl lg:text-7xl lg:mt-[-60px]">
 					Domaine Aventurier
 				</h1>
 				<span className="font-OpenSans font-semibold text-white text-2xl lg:text-2xl">
