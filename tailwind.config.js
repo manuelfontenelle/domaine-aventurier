@@ -32,7 +32,6 @@ module.exports = {
 			},
 		},
 	},
-	plugin: [],
-
+	plugins: [],
 	// plugins: [require("tw-elements/dist/plugin")],
 }

@@ -119,3 +119,45 @@ nav {
 		opacity: 0.5;
 	}
 }
+
+.centrageMaison {
+	margin: 0 auto;
+}
+
+// slick
+.slick-prev,
+.slick-next {
+	z-index: 1 !important;
+	&::before {
+		color: white !important;
+		font-size: 2rem !important;
+	}
+}
+.slick-prev {
+	left: 10px !important;
+}
+.slick-next {
+	right: 20px !important;
+}
+
+// .react-tabs__tab--selected {
+// 	// width: 12% !important;
+// }
+.react-tabs__tab-list {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	@media only screen and (min-width: 1024px) {
+		flex-wrap: nowrap;
+	}
+}
+.react-tabs__tab {
+	width: 20%;
+	@media only screen and (min-width: 1024px) {
+		width: auto;
+	}
+	img {
+		width: 100%;
+	}
+}

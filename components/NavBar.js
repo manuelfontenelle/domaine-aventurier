@@ -17,6 +17,7 @@ const NavBar = ({ scroll }) => {
 	const { locale, locales } = useRouter()
 	const router = useRouter()
 	const currentRoute = router.pathname
+	// console.log(currentRoute)
 
 	// const scrollPosition = useScrollPosition()
 	// console.log(scrollPosition)
@@ -69,6 +70,14 @@ const NavBar = ({ scroll }) => {
 						>
 							<li className="ml-10 text-sm uppercase borderBottomCustom">
 								Tarifs
+							</li>
+						</Link>
+						<Link
+							href="/chalets"
+							className={currentRoute === "/chalets" ? "active" : "nonActive"}
+						>
+							<li className="ml-10 text-sm uppercase borderBottomCustom">
+								Chalets
 							</li>
 						</Link>
 						<Link
@@ -164,6 +173,9 @@ const NavBar = ({ scroll }) => {
 							</Link>
 							<Link href="/tarifs">
 								<li className="py-4 text-md">Tarifs</li>
+							</Link>
+							<Link href="/chalets">
+								<li className="py-4 text-md">Chalets</li>
 							</Link>
 							<Link href="/contact">
 								<li className="py-4 text-md">Contact</li>
