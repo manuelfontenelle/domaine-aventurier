@@ -476,7 +476,7 @@ const tarifs = () => {
 									<li> LOCATION DE KAYAK DE PÊCHE 70$/JOURS</li>
 									<li> LOCATION PADDLE BOARD 15$/L'HEURE MINIMUN 3HRS</li>
 									<li>LOCATION PLANCHE SUMO POUR JUSQU'A 6 PERSONNES 170$ </li>
-									<li> LOCATION COUSSIN FLOTTAND 15$/JOURS</li>
+									<li> LOCATION COUSSIN FLOTTANT 15$/JOURS</li>
 									<li> LOCATION GILET SAUVETAGE 10$/JOURS</li>
 								</ul>
 								<br />
