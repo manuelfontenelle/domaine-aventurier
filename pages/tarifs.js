@@ -480,7 +480,6 @@ const tarifs = () => {
 									<li> LOCATION GILET SAUVETAGE 10$/JOURS</li>
 								</ul>
 								<br />
-								<br />
 								<b>VENTE D'APPÂTS ET LEURRES SUR PLACE :</b>
 								<br />
 								<b>ÉTÉ</b> : VERS, SANGSUES <br />

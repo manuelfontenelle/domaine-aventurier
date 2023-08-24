@@ -467,7 +467,6 @@ const tarifs = () => {
 									<li>LIFEJACKET RENTAL $10/DAY</li>
 								</ul>
 								<br />
-								<br />
 								<b>BAIT AND LURES FOR SALE ON SITE :</b>
 								<br />
 								<b>SUMMER</b> : WORMS, LEECHES
