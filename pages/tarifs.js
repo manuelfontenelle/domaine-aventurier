@@ -464,7 +464,7 @@ const tarifs = () => {
 								<br />
 								<ul>
 									<li>
-										LOCATION DE CHALOUPE AVEC HÉBERGEMENT 150$/ JOURS GAZ INCLUS
+										LOCATION DE CHALOUPE AVEC HÉBERGEMENT 150$/JOURS GAZ INCLUS
 									</li>
 									<li>
 										LOCATION DE CHALOUPE PÊCHE JOURNALIÈRE
@@ -472,11 +472,11 @@ const tarifs = () => {
 									</li>
 									<br />
 
-									<li> LOCATION PONTON 500$ / JOURS </li>
-									<li> LOCATION DE KAYAK DE PÊCHE 70$ PAR JOURS</li>
-									<li> LOCATION PADDLE BOARD 15$/L'HEURE MINIMUN 3 HRS</li>
+									<li> LOCATION PONTON 500$/JOURS </li>
+									<li> LOCATION DE KAYAK DE PÊCHE 70$/JOURS</li>
+									<li> LOCATION PADDLE BOARD 15$/L'HEURE MINIMUN 3HRS</li>
 									<li>LOCATION PLANCHE SUMO POUR JUSQU'A 6 PERSONNES 170$ </li>
-									<li> LOCATION COUSSIN FLOTTAND 15$ /JOURS</li>
+									<li> LOCATION COUSSIN FLOTTAND 15$/JOURS</li>
 									<li> LOCATION GILET SAUVETAGE 10$/JOURS</li>
 								</ul>
 								<br />
