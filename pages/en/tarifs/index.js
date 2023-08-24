@@ -29,7 +29,7 @@ const textCerf = (
 		<span className="font-bold uppercase">
 			3 NIGHTS + 4 DAYS HUNTING PACKAGE
 		</span>
-		<span className="font-bold text-[#ff7f00] block ">550$ +tx / Person</span>
+		<span className="font-bold text-[#ff7f00] block ">650$ +tx / Person</span>
 		<br />
 		Accommodation included
 	</p>
@@ -295,7 +295,7 @@ const tarifs = () => {
 								</div>
 								<h2 className="font-bold text-xl ml-5 uppercase ">
 									Cabins
-									<span className="text-sm"> (Minimum 2 nights)</span>
+									<span className="text-sm">(Minimum 2 nights / 2 adults)</span>
 								</h2>
 							</div>
 						</div>
@@ -317,22 +317,22 @@ const tarifs = () => {
 										<td className="border border-slate-300 p-2">Cabin #1</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Cabin #2</td>
 										<td className="border border-slate-300 p-2">3</td>
 										<td className="border border-slate-300 p-2">5-6</td>
-										<td className="border border-slate-300 p-2">190$</td>
-										<td className="border border-slate-300 p-2">1100$</td>
+										<td className="border border-slate-300 p-2">215$</td>
+										<td className="border border-slate-300 p-2">1130$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Cabin #3</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">
@@ -340,48 +340,56 @@ const tarifs = () => {
 										</td>
 										<td className="border border-slate-300 p-2">1</td>
 										<td className="border border-slate-300 p-2">1-2</td>
-										<td className="border border-slate-300 p-2">180$</td>
-										<td className="border border-slate-300 p-2">1000$</td>
+										<td className="border border-slate-300 p-2">205$</td>
+										<td className="border border-slate-300 p-2">1030$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Cabin #5</td>
 										<td className="border border-slate-300 p-2">3</td>
 										<td className="border border-slate-300 p-2">5-8</td>
-										<td className="border border-slate-300 p-2">190$</td>
-										<td className="border border-slate-300 p-2">1100$</td>
+										<td className="border border-slate-300 p-2">215$</td>
+										<td className="border border-slate-300 p-2">1130$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Cabin #6</td>
 										<td className="border border-slate-300 p-2">1</td>
 										<td className="border border-slate-300 p-2">2-6</td>
 										<td className="border border-slate-300 p-2">160$</td>
-										<td className="border border-slate-300 p-2">1100$</td>
+										<td className="border border-slate-300 p-2">1130$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Cabin #7</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-8</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Cabin #8</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-6</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Cabin #9</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-6</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 								</tbody>
 							</table>
 							<span className="text-sm mt-2 block">
-								PETS ARE NOT ACCEPTED ON THE SITE.
+								<br />
+								1 WEEK 6 NIGHTS 7 DAYS OF FISHING ADDITIONAL PERSON 30.00$ MORE
+								PER NIGHT
+								<br />
+								<br />
+								FREE ROWBOAT ON LAST DAY! Maximum 3 people per boat
+								<br />
+								<br />
+								PETS ARE NOT ALLOWED ON SITE.
 							</span>
 						</div>
 					</section>
@@ -416,7 +424,7 @@ const tarifs = () => {
 								<tbody className="text-xs md:text-sm">
 									<tr>
 										<td className="border border-slate-300 p-2">TENT</td>
-										<td className="border border-slate-300 p-2">40$</td>
+										<td className="border border-slate-300 p-2">50$</td>
 										<td className="border border-slate-300 p-2">200$</td>
 										<td className="border border-slate-300 p-2">600$</td>
 										<td className="border border-slate-300 p-2">2000$</td>
@@ -425,20 +433,48 @@ const tarifs = () => {
 										<td className="border border-slate-300 p-2">
 											TENT-TRAILER
 										</td>
-										<td className="border border-slate-300 p-2">60$</td>
+										<td className="border border-slate-300 p-2">70$</td>
 										<td className="border border-slate-300 p-2">360$</td>
 										<td className="border border-slate-300 p-2">1080$</td>
-										<td className="border border-slate-300 p-2">2200$</td>
+										<td className="border border-slate-300 p-2">2500$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">TRAILER</td>
-										<td className="border border-slate-300 p-2">60$</td>
+										<td className="border border-slate-300 p-2">70$</td>
 										<td className="border border-slate-300 p-2">360$</td>
 										<td className="border border-slate-300 p-2">1080$</td>
-										<td className="border border-slate-300 p-2">2200$</td>
+										<td className="border border-slate-300 p-2">2500$</td>
 									</tr>
 								</tbody>
 							</table>
+							<span className="text-sm mt-2 block">
+								<br />
+								<ul>
+									<li>
+										ROWBOAT RENTAL WITH ACCOMMODATION $150/DAY GAS INCLUDED
+									</li>
+									<li>
+										DAILY FISHING BOAT RENTAL
+										<b> WITHOUT ACCOMMODATION</b> $200/DAY GAS INCLUDED
+									</li>
+									<br />
+
+									<li>PONTOON RENTAL $500/DAYS</li>
+									<li>FISHING KAYAK RENTAL $70/DAY</li>
+									<li>PADDLE BOARD RENTAL $15/HOUR MINIMUM 3 HRS</li>
+									<li>SUMO BOARD RENTAL FOR UP TO 6 PEOPLE $170</li>
+									<li>FLOATING CUSHION RENTAL $15/DAY</li>
+									<li>LIFEJACKET RENTAL $10/DAY</li>
+								</ul>
+								<br />
+								<br />
+								<b>BAIT AND LURES FOR SALE ON SITE :</b>
+								<br />
+								<b>SUMMER</b> : WORMS, LEECHES
+								<br />
+								<b>WINTER</b> : MINNOWS, MAGGOTS
+								<br />
+							</span>
 						</div>
 					</section>
 				</div>
