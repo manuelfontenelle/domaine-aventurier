@@ -29,7 +29,7 @@ const textCerf = (
 		<span className="font-bold uppercase">
 			Forfait 3 nuitées + 4 jours de chasse
 		</span>
-		<span className="font-bold text-[#ff7f00] block ">550$ +tx / Personne</span>
+		<span className="font-bold text-[#ff7f00] block ">650$ +tx / Personne</span>
 		<br />
 		Hébergement inclus
 	</p>
@@ -306,7 +306,10 @@ const tarifs = () => {
 								</div>
 								<h2 className="font-bold text-xl ml-5 uppercase ">
 									Chalets
-									<span className="text-sm"> (Minimum 2 nuits)</span>
+									<span className="text-sm">
+										{" "}
+										(Minimum 2 nuits / 2 Adultes)
+									</span>
 								</h2>
 							</div>
 						</div>
@@ -319,7 +322,7 @@ const tarifs = () => {
 											Nombre de chambres
 										</th>
 										<th className="border border-slate-300 p-2">Personnes</th>
-										<th className="border border-slate-300 p-2">Par Jour</th>
+										<th className="border border-slate-300 p-2">Par jour</th>
 										<th className="border border-slate-300 p-2">Par Semaine</th>
 									</tr>
 								</thead>
@@ -328,22 +331,22 @@ const tarifs = () => {
 										<td className="border border-slate-300 p-2">Chalet #1</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Chalet #2</td>
 										<td className="border border-slate-300 p-2">3</td>
 										<td className="border border-slate-300 p-2">5-6</td>
-										<td className="border border-slate-300 p-2">190$</td>
-										<td className="border border-slate-300 p-2">1100$</td>
+										<td className="border border-slate-300 p-2">215$</td>
+										<td className="border border-slate-300 p-2">1130$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Chalet #3</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-4</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">
@@ -351,47 +354,54 @@ const tarifs = () => {
 										</td>
 										<td className="border border-slate-300 p-2">1</td>
 										<td className="border border-slate-300 p-2">1-2</td>
-										<td className="border border-slate-300 p-2">180$</td>
-										<td className="border border-slate-300 p-2">1000$</td>
+										<td className="border border-slate-300 p-2">205$</td>
+										<td className="border border-slate-300 p-2">1030$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Chalet #5</td>
 										<td className="border border-slate-300 p-2">3</td>
 										<td className="border border-slate-300 p-2">5-8</td>
-										<td className="border border-slate-300 p-2">190$</td>
-										<td className="border border-slate-300 p-2">1100$</td>
+										<td className="border border-slate-300 p-2">215$</td>
+										<td className="border border-slate-300 p-2">1130$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Chalet #6</td>
 										<td className="border border-slate-300 p-2">1</td>
 										<td className="border border-slate-300 p-2">2-6</td>
 										<td className="border border-slate-300 p-2">160$</td>
-										<td className="border border-slate-300 p-2">1100$</td>
+										<td className="border border-slate-300 p-2">1130$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Chalet #7</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-8</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Chalet #8</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-6</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">Chalet #9</td>
 										<td className="border border-slate-300 p-2">2</td>
 										<td className="border border-slate-300 p-2">2-6</td>
-										<td className="border border-slate-300 p-2">170$</td>
-										<td className="border border-slate-300 p-2">900$</td>
+										<td className="border border-slate-300 p-2">195$</td>
+										<td className="border border-slate-300 p-2">930$</td>
 									</tr>
 								</tbody>
 							</table>
 							<span className="text-sm mt-2 block">
+								<br />
+								1 SEMAINE 6 NUITS 7 JOURS DE PÊCHE PERS ADDITIONNELLE 30.00$ DE
+								PLUS PAR NUITS <br />
+								<br />
+								CHALOUPE GRATUIT LA DERNIÈRE JOURNÉE ! Maximum 3 pers par
+								chaloupe <br />
+								<br />
 								LES ANIMAUX DE COMPAGNIES NE SONT PAS ACCEPTÉS SUR LE SITE.
 							</span>
 						</div>
@@ -427,7 +437,7 @@ const tarifs = () => {
 								<tbody className="text-xs md:text-sm">
 									<tr>
 										<td className="border border-slate-300 p-2">TENTE</td>
-										<td className="border border-slate-300 p-2">40$</td>
+										<td className="border border-slate-300 p-2">50$</td>
 										<td className="border border-slate-300 p-2">200$</td>
 										<td className="border border-slate-300 p-2">600$</td>
 										<td className="border border-slate-300 p-2">2000$</td>
@@ -436,20 +446,47 @@ const tarifs = () => {
 										<td className="border border-slate-300 p-2">
 											TENTE-ROULOTTE
 										</td>
-										<td className="border border-slate-300 p-2">60$</td>
+										<td className="border border-slate-300 p-2">70$</td>
 										<td className="border border-slate-300 p-2">360$</td>
 										<td className="border border-slate-300 p-2">1080$</td>
-										<td className="border border-slate-300 p-2">2200$</td>
+										<td className="border border-slate-300 p-2">2500$</td>
 									</tr>
 									<tr>
 										<td className="border border-slate-300 p-2">ROULOTTE</td>
-										<td className="border border-slate-300 p-2">60$</td>
+										<td className="border border-slate-300 p-2">70$</td>
 										<td className="border border-slate-300 p-2">360$</td>
 										<td className="border border-slate-300 p-2">1080$</td>
-										<td className="border border-slate-300 p-2">2200$</td>
+										<td className="border border-slate-300 p-2">2500$</td>
 									</tr>
 								</tbody>
 							</table>
+							<span className="text-sm mt-2 block">
+								<br />
+								<ul>
+									<li>
+										LOCATION DE CHALOUPE AVEC HÉBERGEMENT 150$/ JOURS GAZ INCLUS
+									</li>
+									<li>
+										LOCATION DE CHALOUPE PÊCHE JOURNALIÈRE
+										<b> SANS HÉBERGEMENT</b> 200$/JOURS GAZ INCLUS
+									</li>
+									<br />
+
+									<li> LOCATION PONTON 500$ / JOURS </li>
+									<li> LOCATION DE KAYAK DE PÊCHE 70$ PAR JOURS</li>
+									<li> LOCATION PADDLE BOARD 15$/L'HEURE MINIMUN 3 HRS</li>
+									<li>LOCATION PLANCHE SUMO POUR JUSQU'A 6 PERSONNES 170$ </li>
+									<li> LOCATION COUSSIN FLOTTAND 15$ /JOURS</li>
+									<li> LOCATION GILET SAUVETAGE 10$/JOURS</li>
+								</ul>
+								<br />
+								<br />
+								<b>VENTE D'APPÂTS ET LEURRES SUR PLACE :</b>
+								<br />
+								<b>ÉTÉ</b> : VERS, SANGSUES <br />
+								<b>HIVER</b> : MÉNÉS, ASTICOTS
+								<br />
+							</span>
 						</div>
 					</section>
 				</div>
