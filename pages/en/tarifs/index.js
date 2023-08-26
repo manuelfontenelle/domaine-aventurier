@@ -103,7 +103,7 @@ const textQuad = (
 
 const textForfaitVagabond = (
 	<p className="mt-2 text-md leading-6">
-		Includes: 1 night lodging, bedding, pre-cooked meal service a la carte.
+		Includes: 1 night lodging, bedding, pre-cooked meal service à la carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
 			100$ +tx / Person / Night - Week only
@@ -114,7 +114,7 @@ const textForfaitVagabond = (
 const textForfaitDebarcadaire = (
 	<p className="mt-2 text-md leading-6">
 		Includes: Lodging (2 nights), 1 night upon arrival and 1 night upon
-		departure, bedding, trailer parking, pre-cooked meal service a la carte.
+		departure, bedding, trailer parking, pre-cooked meal service à la carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
 			Weekdays = 120$ +tx / Person / Night

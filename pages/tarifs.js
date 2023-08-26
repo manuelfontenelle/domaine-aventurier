@@ -151,8 +151,8 @@ const textForfaitTouriste = (
 
 const textForfaitAventurier = (
 	<p className="mt-2 text-md leading-6">
-		Comprend: Hébergement 3 nuits, 2 jours de pêche blanche tout équipé, repas
-		pré-cuisinés à la carte.
+		Comprend: Hébergement 3 nuits, 2 jours de pêche blanche tout équipé, service
+		de repas pré-cuisinés à la carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
 			En semaine = 275$ +tx / Personne / Nuit <br />
