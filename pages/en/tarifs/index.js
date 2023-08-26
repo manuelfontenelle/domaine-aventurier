@@ -140,7 +140,7 @@ const textForfaitTouriste = (
 const textForfaitAventurier = (
 	<p className="mt-2 text-md leading-6">
 		Includes: Lodging 3 nights, 2 days of ice fishing all equipped, pre-cooked
-		meals à la carte.
+		meal service à la carte.
 		<br />
 		<span className="font-bold text-[#ff7f00] ">
 			Weekdays = 275$ +tx / Person / Night
