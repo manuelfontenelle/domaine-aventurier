@@ -75,6 +75,16 @@ const NavBarEn = ({ scroll }) => {
 							</li>
 						</Link>
 						<Link
+							href="/en/chalets"
+							className={
+								currentRoute === "/en/chalets" ? "active" : "nonActive"
+							}
+						>
+							<li className="ml-10 text-sm uppercase borderBottomCustom">
+								Chalets
+							</li>
+						</Link>
+						<Link
 							href="/en/contact"
 							className={
 								currentRoute === "/en/contact" ? "active" : "nonActive"
@@ -169,6 +179,9 @@ const NavBarEn = ({ scroll }) => {
 							</Link>
 							<Link href="/en/tarifs">
 								<li className="py-4 text-md">Prices</li>
+							</Link>
+							<Link href="/en/chalets">
+								<li className="py-4 text-md">chalets</li>
 							</Link>
 							<Link href="/en/contact">
 								<li className="py-4 text-md">Contact</li>
