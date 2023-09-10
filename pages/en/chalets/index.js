@@ -2,7 +2,7 @@ import React from "react"
 
 import Head from "next/head"
 import Image from "next/image"
-import NavBar from "@/components/NavBar"
+import NavBarEn from "@/components/en/NavBarEn"
 import Footer from "@/components/Footer"
 
 import introPageImg from "@/public/intro_tarifs.jpg"
@@ -137,7 +137,7 @@ const chalets = () => {
 				<meta property="og:site_name" content="Domaine Aventurier" />
 				{/* <script src="../path/to/flowbite/dist/flowbite.min.js"></script> */}
 			</Head>
-			<NavBar scroll={scroll} />
+			<NavBarEn scroll={scroll} />
 			<main className="min-h-screen">
 				<section className="pt-20">
 					<div className="h-96 relative">
