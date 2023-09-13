@@ -159,18 +159,24 @@ const chalets = () => {
 					<h2 className="text-[#79cf00]">Our chalets:</h2>
 				</section>
 
-				<section className="mb-20">
-					<Tabs className="w-[90%] centrageMaison">
+				<section className="mb-20 container">
+					<Tabs className="centrageMaison">
 						<TabList>
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#1
+								</span>
 								<Image
 									className=" block object-cover "
-									src={chalet1_1}
+									src={chalet1_2}
 									alt="intro image tarifs"
 								/>
 							</Tab>
 
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#2
+								</span>
 								<Image
 									className=" block object-cover "
 									src={chalet2_1}
@@ -178,6 +184,9 @@ const chalets = () => {
 								/>
 							</Tab>
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#3
+								</span>
 								<Image
 									className=" block object-cover "
 									src={chalet3_1}
@@ -185,6 +194,9 @@ const chalets = () => {
 								/>
 							</Tab>
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#5
+								</span>
 								<Image
 									className=" block object-cover "
 									src={chalet5_1}
@@ -192,6 +204,9 @@ const chalets = () => {
 								/>
 							</Tab>
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#6
+								</span>
 								<Image
 									className=" block object-cover "
 									src={chalet6_1}
@@ -199,6 +214,9 @@ const chalets = () => {
 								/>
 							</Tab>
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#7
+								</span>
 								<Image
 									className=" block object-cover "
 									src={chalet7_1}
@@ -206,13 +224,19 @@ const chalets = () => {
 								/>
 							</Tab>
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#8
+								</span>
 								<Image
 									className=" block object-cover "
-									src={chalet8_1}
+									src={chalet8_7}
 									alt="intro image tarifs"
 								/>
 							</Tab>
 							<Tab>
+								<span className="absolute text-white bg-[#ff7f00] px-2 py-1 bottom-[6px] right-[12px] font-bold text-sm">
+									#9
+								</span>
 								<Image
 									className=" block object-cover "
 									src={chalet9_1}
@@ -721,7 +745,9 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Sanitary</h3>
+								<h3 className="font-bold text-xl my-5 text-center">
+									Sanitaires
+								</h3>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -758,7 +784,7 @@ const chalets = () => {
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">
-									Activities
+									Activités
 								</h3>
 								<Slider {...settings}>
 									<div>

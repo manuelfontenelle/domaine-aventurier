@@ -168,7 +168,7 @@ const chalets = () => {
 								</span>
 								<Image
 									className=" block object-cover "
-									src={chalet1_1}
+									src={chalet1_2}
 									alt="intro image tarifs"
 								/>
 							</Tab>
