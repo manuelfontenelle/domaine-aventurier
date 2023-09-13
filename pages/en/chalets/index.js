@@ -5,7 +5,7 @@ import Image from "next/image"
 import NavBarEn from "@/components/en/NavBarEn"
 import Footer from "@/components/Footer"
 
-import introPageImg from "@/public/intro_tarifs.jpg"
+import introPageImg from "@/public/intro_chalets.jpg"
 import chalet1_1 from "@/public/chalets/chalet-1/chalet-1-01.jpg"
 import chalet1_2 from "@/public/chalets/chalet-1/chalet-1--2.jpg"
 import chalet1_3 from "@/public/chalets/chalet-1/chalet-1-03.jpg"
