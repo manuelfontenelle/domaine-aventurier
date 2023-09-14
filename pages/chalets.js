@@ -6,12 +6,14 @@ import NavBar from "@/components/NavBar"
 import Footer from "@/components/Footer"
 
 import introPageImg from "@/public/intro_chalets.jpg"
-import chalet1_1 from "@/public/chalets/chalet-1/chalet-1-01.jpg"
+import chalet1_1 from "@/public/chalets/chalet-1/chalet1-2.jpg"
 import chalet1_2 from "@/public/chalets/chalet-1/chalet-1--2.jpg"
 import chalet1_3 from "@/public/chalets/chalet-1/chalet-1-03.jpg"
-import chalet1_4 from "@/public/chalets/chalet-1/chalet-1-04.jpg"
-import chalet1_5 from "@/public/chalets/chalet-1/IMG_8366-2.jpg"
-import chalet1_6 from "@/public/chalets/chalet-1/IMG_8368-2.jpg"
+import chalet1_4 from "@/public/chalets/chalet-1/chalet1-4.jpg"
+import chalet1_5 from "@/public/chalets/chalet-1/chalet1-5.jpg"
+import chalet1_6 from "@/public/chalets/chalet-1/chalet1-3.jpg"
+import chalet1_7 from "@/public/chalets/chalet-1/IMG_8366-2.jpg"
+import chalet1_8 from "@/public/chalets/chalet-1/chalet1-6.jpg"
 
 import chalet2_1 from "@/public/chalets/chalet-2/IMG_6502-3.jpg"
 import chalet2_2 from "@/public/chalets/chalet-2/IMG_6503-2.jpg"
@@ -24,13 +26,14 @@ import chalet2_8 from "@/public/chalets/chalet-2/IMG_6510-2.jpg"
 import chalet2_9 from "@/public/chalets/chalet-2/IMG_6513-3.jpg"
 import chalet2_10 from "@/public/chalets/chalet-2/IMG_6514-3.jpg"
 
-import chalet3_1 from "@/public/chalets/chalet-3/IMG_6516-2.jpg"
-import chalet3_2 from "@/public/chalets/chalet-3/IMG_6517-3.jpg"
-import chalet3_3 from "@/public/chalets/chalet-3/IMG_6518-2.jpg"
-import chalet3_4 from "@/public/chalets/chalet-3/IMG_6519-2.jpg"
-import chalet3_5 from "@/public/chalets/chalet-3/IMG_6520-3.jpg"
-import chalet3_6 from "@/public/chalets/chalet-3/IMG_6521-2.jpg"
-import chalet3_7 from "@/public/chalets/chalet-3/IMG_6522-2.jpg"
+import chalet3_1 from "@/public/chalets/chalet-3/chalet3.jpg"
+import chalet3_2 from "@/public/chalets/chalet-3/IMG_6516-2.jpg"
+import chalet3_3 from "@/public/chalets/chalet-3/IMG_6517-3.jpg"
+import chalet3_4 from "@/public/chalets/chalet-3/IMG_6518-2.jpg"
+import chalet3_5 from "@/public/chalets/chalet-3/IMG_6519-2.jpg"
+import chalet3_6 from "@/public/chalets/chalet-3/IMG_6520-3.jpg"
+import chalet3_7 from "@/public/chalets/chalet-3/IMG_6521-2.jpg"
+import chalet3_8 from "@/public/chalets/chalet-3/IMG_6522-2.jpg"
 
 import chalet5_1 from "@/public/chalets/chalet-5/IMG_6523-3.jpg"
 import chalet5_2 from "@/public/chalets/chalet-5/IMG_6524-2.jpg"
@@ -42,11 +45,12 @@ import chalet5_7 from "@/public/chalets/chalet-5/IMG_6529-3.jpg"
 import chalet5_8 from "@/public/chalets/chalet-5/IMG_6530-3.jpg"
 import chalet5_9 from "@/public/chalets/chalet-5/IMG_6531-3.jpg"
 
-import chalet6_1 from "@/public/chalets/chalet-6/IMG_1532-3.jpg"
-import chalet6_2 from "@/public/chalets/chalet-6/IMG_1533-3.jpg"
-import chalet6_3 from "@/public/chalets/chalet-6/IMG_1535-2.jpg"
-import chalet6_4 from "@/public/chalets/chalet-6/IMG_1536-3.jpg"
-import chalet6_5 from "@/public/chalets/chalet-6/IMG_1537-3.jpg"
+import chalet6_1 from "@/public/chalets/chalet-6/chalet6.jpg"
+import chalet6_2 from "@/public/chalets/chalet-6/IMG_1532-3.jpg"
+import chalet6_3 from "@/public/chalets/chalet-6/IMG_1533-3.jpg"
+import chalet6_4 from "@/public/chalets/chalet-6/IMG_1535-2.jpg"
+import chalet6_5 from "@/public/chalets/chalet-6/IMG_1536-3.jpg"
+import chalet6_6 from "@/public/chalets/chalet-6/IMG_1537-3.jpg"
 
 import chalet7_1 from "@/public/chalets/chalet-7/IMG_6533-2.jpg"
 import chalet7_2 from "@/public/chalets/chalet-7/IMG_6534-2.jpg"
@@ -157,6 +161,13 @@ const chalets = () => {
 
 				<section className="font-bold text-2xl container text-center py-10">
 					<h2 className="text-[#79cf00]">Nos chalets :</h2>
+					<p className="text-sm mt-5">
+						TOUT LES CHALETS SONT POURVUS D'ÉQUIPEMENT DE BASE INCLUENT BBQ VOUS
+						DEVEZ APPORTER SEULEMENT VOTRE LITERIE, OREILLÉES.
+						<br />
+						SERVIETTES DE BAIN AINSI QUE BOUTEILLES D'EAU. LES CHALETS SONT MUNI
+						ÉLECTRICITÉ ET L'EAU COURANTE.
+					</p>
 				</section>
 
 				<section className="mb-20 container">
@@ -168,7 +179,7 @@ const chalets = () => {
 								</span>
 								<Image
 									className=" block object-cover "
-									src={chalet1_2}
+									src={chalet1_1}
 									alt="intro image tarifs"
 								/>
 							</Tab>
@@ -262,6 +273,17 @@ const chalets = () => {
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 1</h3>
+								<p className="text-xs my-5 text-center">
+									SUPERBE VUE SUR LA RIVIÈRE DU LIÈVRE ET DES QUAIS À PATIR DE
+									LA NOUVELLE TERRASSE.
+									<br />
+									CHALET RUSTIQUE COMPRENANT 2 CHAMBRES INCLUS DANS CHAQUE 1 LIT
+									DOUBLE ET 1 LIT SIMPLE PEUX ACCEUILLIR ENTRE 4 À 6 PERS.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO DE MAI À FIN OCTOBRE.
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -306,12 +328,37 @@ const chalets = () => {
 											alt="intro image tarifs"
 										/>
 									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet1_7}
+											alt="intro image tarifs"
+										/>
+									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet1_8}
+											alt="intro image tarifs"
+										/>
+									</div>
 								</Slider>
 							</div>
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 2</h3>
+								<p className="text-xs my-5 text-center">
+									BELLE GRANDE TERRASSE AVEC LA VUE SUR LA RIVIÈRE.
+									<br />
+									CHALET RUSTIQUE COMPRENANT 3 CHAMBRES INCLUS DANS 2 CHAMBRES 1
+									LIT DOUBLE ET 1 LIT SIMPLE ET LA 3 IÈMES 2 LITS SIMPLES PEUX
+									ACCEUILLIR ENTRE 6 À 8 PERS.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO DE MAI À FIN OCTOBRE.
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -390,6 +437,14 @@ const chalets = () => {
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 3</h3>
+								<p className="text-xs my-5 text-center">
+									CHALET RUSTIQUE COMPRENANT 2 CHAMBRES INCLUS DANS CHAQUE 1 LIT
+									DOUBLE ET 1 LIT SIMPLE PEUX ACCEUILLIR ENTRE 4 À 6 PERS.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO DE MAI À FIN OCTOBRE.
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -441,12 +496,29 @@ const chalets = () => {
 											alt="intro image tarifs"
 										/>
 									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet3_8}
+											alt="intro image tarifs"
+										/>
+									</div>
 								</Slider>
 							</div>
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 5</h3>
+								<p className="text-xs my-5 text-center">
+									BELLE GRANDE GALERIE.
+									<br />
+									CHALET RUSTIQUE COMPRENANT 2 CHAMBRES INCLUS DANS CHAQUE 1 LIT
+									DOUBLE ET 1 LIT SIMPLE PEUX ACCEUILLIR ENTRE 4 À 6 PERS.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO 12 MOIS
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -518,6 +590,16 @@ const chalets = () => {
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 6</h3>
+								<p className="text-xs my-5 text-center">
+									BELLE GRANDE GALERIE VUE SUR LA RIVIÈRE.
+									<br />
+									CHALET RUSTIQUE BOIS ROND COMPRENANT 1 CHAMBRES 1 LIT DOUBLE
+									ET 12 LITS SIMPLES PEUX ACCEUILLIR ENTRE 3 À 4 PERS.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO 12 MOIS PAR ANNÉE
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -555,12 +637,30 @@ const chalets = () => {
 											alt="intro image tarifs"
 										/>
 									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet6_6}
+											alt="intro image tarifs"
+										/>
+									</div>
 								</Slider>
 							</div>
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 7</h3>
+								<p className="text-xs my-5 text-center">
+									BELLE GRANDE GALERIE VUE SUR LA RIVIÈRE.
+									<br />
+									CHALET RUSTIQUE BOIS ROND COMPRENANT 2 CHAMBRES INCLUS DANS
+									CHAQUE CHAMBRE 1 LIT DOUBLE ET 1 LITS SIMPLES ET 1 DIVAN LIT
+									PEUX ACCEUILLIR ENTRE 5 À 8 PERS
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO 12 MOIS PAR ANNÉE
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -632,6 +732,15 @@ const chalets = () => {
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 8</h3>
+								<p className="text-xs my-5 text-center">
+									NOS DEUX CHALETS RESSENTS, CHALET RUSTIQUE COMPRENANT 2
+									CHAMBRES DANS CHAQUE CHAMBRE 1 LIT DOUBLE ET 1 LIT SIMPLE PEUX
+									ACCEUILLIR ENTRE 4 À 6 PERS
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO 12 MOIS PAR ANNÉE
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -689,6 +798,15 @@ const chalets = () => {
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">Chalet 9</h3>
+								<p className="text-xs my-5 text-center">
+									NOS DEUX CHALETS RESSENTS, CHALET RUSTIQUE COMPRENANT 2
+									CHAMBRES DANS CHAQUE CHAMBRE 1 LIT DOUBLE ET 1 LIT SIMPLE PEUX
+									ACCEUILLIR ENTRE 4 À 6 PERS
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+										DISPO 12 MOIS PAR ANNÉE
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}

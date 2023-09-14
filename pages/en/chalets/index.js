@@ -6,12 +6,14 @@ import NavBarEn from "@/components/en/NavBarEn"
 import Footer from "@/components/Footer"
 
 import introPageImg from "@/public/intro_chalets.jpg"
-import chalet1_1 from "@/public/chalets/chalet-1/chalet-1-01.jpg"
+import chalet1_1 from "@/public/chalets/chalet-1/chalet1-2.jpg"
 import chalet1_2 from "@/public/chalets/chalet-1/chalet-1--2.jpg"
 import chalet1_3 from "@/public/chalets/chalet-1/chalet-1-03.jpg"
-import chalet1_4 from "@/public/chalets/chalet-1/chalet-1-04.jpg"
-import chalet1_5 from "@/public/chalets/chalet-1/IMG_8366-2.jpg"
-import chalet1_6 from "@/public/chalets/chalet-1/IMG_8368-2.jpg"
+import chalet1_4 from "@/public/chalets/chalet-1/chalet1-4.jpg"
+import chalet1_5 from "@/public/chalets/chalet-1/chalet1-5.jpg"
+import chalet1_6 from "@/public/chalets/chalet-1/chalet1-3.jpg"
+import chalet1_7 from "@/public/chalets/chalet-1/IMG_8366-2.jpg"
+import chalet1_8 from "@/public/chalets/chalet-1/chalet1-6.jpg"
 
 import chalet2_1 from "@/public/chalets/chalet-2/IMG_6502-3.jpg"
 import chalet2_2 from "@/public/chalets/chalet-2/IMG_6503-2.jpg"
@@ -24,13 +26,14 @@ import chalet2_8 from "@/public/chalets/chalet-2/IMG_6510-2.jpg"
 import chalet2_9 from "@/public/chalets/chalet-2/IMG_6513-3.jpg"
 import chalet2_10 from "@/public/chalets/chalet-2/IMG_6514-3.jpg"
 
-import chalet3_1 from "@/public/chalets/chalet-3/IMG_6516-2.jpg"
-import chalet3_2 from "@/public/chalets/chalet-3/IMG_6517-3.jpg"
-import chalet3_3 from "@/public/chalets/chalet-3/IMG_6518-2.jpg"
-import chalet3_4 from "@/public/chalets/chalet-3/IMG_6519-2.jpg"
-import chalet3_5 from "@/public/chalets/chalet-3/IMG_6520-3.jpg"
-import chalet3_6 from "@/public/chalets/chalet-3/IMG_6521-2.jpg"
-import chalet3_7 from "@/public/chalets/chalet-3/IMG_6522-2.jpg"
+import chalet3_1 from "@/public/chalets/chalet-3/chalet3.jpg"
+import chalet3_2 from "@/public/chalets/chalet-3/IMG_6516-2.jpg"
+import chalet3_3 from "@/public/chalets/chalet-3/IMG_6517-3.jpg"
+import chalet3_4 from "@/public/chalets/chalet-3/IMG_6518-2.jpg"
+import chalet3_5 from "@/public/chalets/chalet-3/IMG_6519-2.jpg"
+import chalet3_6 from "@/public/chalets/chalet-3/IMG_6520-3.jpg"
+import chalet3_7 from "@/public/chalets/chalet-3/IMG_6521-2.jpg"
+import chalet3_8 from "@/public/chalets/chalet-3/IMG_6522-2.jpg"
 
 import chalet5_1 from "@/public/chalets/chalet-5/IMG_6523-3.jpg"
 import chalet5_2 from "@/public/chalets/chalet-5/IMG_6524-2.jpg"
@@ -42,11 +45,12 @@ import chalet5_7 from "@/public/chalets/chalet-5/IMG_6529-3.jpg"
 import chalet5_8 from "@/public/chalets/chalet-5/IMG_6530-3.jpg"
 import chalet5_9 from "@/public/chalets/chalet-5/IMG_6531-3.jpg"
 
-import chalet6_1 from "@/public/chalets/chalet-6/IMG_1532-3.jpg"
-import chalet6_2 from "@/public/chalets/chalet-6/IMG_1533-3.jpg"
-import chalet6_3 from "@/public/chalets/chalet-6/IMG_1535-2.jpg"
-import chalet6_4 from "@/public/chalets/chalet-6/IMG_1536-3.jpg"
-import chalet6_5 from "@/public/chalets/chalet-6/IMG_1537-3.jpg"
+import chalet6_1 from "@/public/chalets/chalet-6/chalet6.jpg"
+import chalet6_2 from "@/public/chalets/chalet-6/IMG_1532-3.jpg"
+import chalet6_3 from "@/public/chalets/chalet-6/IMG_1533-3.jpg"
+import chalet6_4 from "@/public/chalets/chalet-6/IMG_1535-2.jpg"
+import chalet6_5 from "@/public/chalets/chalet-6/IMG_1536-3.jpg"
+import chalet6_6 from "@/public/chalets/chalet-6/IMG_1537-3.jpg"
 
 import chalet7_1 from "@/public/chalets/chalet-7/IMG_6533-2.jpg"
 import chalet7_2 from "@/public/chalets/chalet-7/IMG_6534-2.jpg"
@@ -168,7 +172,7 @@ const chalets = () => {
 								</span>
 								<Image
 									className=" block object-cover "
-									src={chalet1_2}
+									src={chalet1_1}
 									alt="intro image tarifs"
 								/>
 							</Tab>
@@ -303,6 +307,20 @@ const chalets = () => {
 										<Image
 											className=" block w-full object-contain h-[500px] md:h-[700px]"
 											src={chalet1_6}
+											alt="intro image tarifs"
+										/>
+									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet1_7}
+											alt="intro image tarifs"
+										/>
+									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet1_8}
 											alt="intro image tarifs"
 										/>
 									</div>
@@ -441,6 +459,13 @@ const chalets = () => {
 											alt="intro image tarifs"
 										/>
 									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet3_8}
+											alt="intro image tarifs"
+										/>
+									</div>
 								</Slider>
 							</div>
 						</TabPanel>
@@ -552,6 +577,13 @@ const chalets = () => {
 										<Image
 											className=" block w-full object-contain h-[500px] md:h-[700px]"
 											src={chalet6_5}
+											alt="intro image tarifs"
+										/>
+									</div>
+									<div>
+										<Image
+											className=" block w-full object-contain h-[500px] md:h-[700px]"
+											src={chalet6_6}
 											alt="intro image tarifs"
 										/>
 									</div>
@@ -745,9 +777,7 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">
-									Sanitaires
-								</h3>
+								<h3 className="font-bold text-xl my-5 text-center">Sanitary</h3>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -784,7 +814,7 @@ const chalets = () => {
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
 								<h3 className="font-bold text-xl my-5 text-center">
-									Activités
+									Activities
 								</h3>
 								<Slider {...settings}>
 									<div>
