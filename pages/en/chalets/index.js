@@ -830,7 +830,7 @@ const chalets = () => {
 											alt="intro image tarifs"
 										/>
 									</div>
-									{/* <div>
+									<div>
 										<Image
 											className=" block w-full object-contain h-[500px] md:h-[700px]"
 											src={activite_7}
@@ -843,7 +843,7 @@ const chalets = () => {
 											src={activite_8}
 											alt="intro image tarifs"
 										/>
-									</div> */}
+									</div>
 									<div>
 										<Image
 											className=" block w-full object-contain h-[500px] md:h-[700px]"
