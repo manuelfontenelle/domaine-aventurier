@@ -161,6 +161,13 @@ const chalets = () => {
 
 				<section className="font-bold text-2xl container text-center py-10">
 					<h2 className="text-[#79cf00]">Our chalets:</h2>
+					<p className="text-sm mt-5">
+						All cottages are equipped with basic conveniences and have a BBQ.
+						They also have electricity and running water (not drinkable).
+						<br />
+						*Note: You must bring your own bedding, pillows, towels and bottled
+						water.
+					</p>
 				</section>
 
 				<section className="mb-20 container">
@@ -265,7 +272,18 @@ const chalets = () => {
 
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 1</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
+									Chalet 1
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Beautiful patio overlooking the docks and the Lièvre River.
+									Rustic two-bedroom cottage with one double and one single bed.
+									Sleeps 4 to 6.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE FROM MAY TO THE END OF OCTOBER
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -329,7 +347,19 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 2</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
+									Chalet 2
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Large terrace overlooking the Lièvre River. Rustic cottage
+									with three bedrooms. Two bedrooms with one double and one
+									single bed. The third bedroom has two single beds. Sleeps 6 to
+									8.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE FROM MAY TO THE END OF OCTOBER
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -407,7 +437,17 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 3</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 3
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Rustic cottage with two bedrooms with one double and one
+									single bed. Sleeps 4 to 6.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE FROM MAY TO THE END OF OCTOBER
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -471,7 +511,17 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 5</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 5
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Rustic cottage with a patio and two bedrooms with one double
+									and one single bed. Sleeps 4 to 6 people.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE 12 MONTHS
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -542,7 +592,18 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 6</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 6
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Rustic log cabin with a large patio overlooking the Lièvre
+									River. One bedroom with one double and one single bed. Sleeps
+									3 to 4.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE 12 MONTHS PER YEAR
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -592,7 +653,18 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 7</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 7
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Rustic log cabin with a large patio overlooking the Lièvre
+									River. Two bedrooms with a double bed, a single bed and a sofa
+									bed. Sleeps 5 to 8.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE 12 MONTHS PER YEAR
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -663,7 +735,17 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 8</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
+									Chalet 8
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									New rustic cottage with two bedrooms, each with one double and
+									one single bed. Sleeps 4 to 6.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE 12 MONTHS PER YEAR
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -720,7 +802,17 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 9</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 9
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									New rustic cottage with two bedrooms, each with one double and
+									one single bed. Sleeps 4 to 6.
+									<br />
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										AVAILABLE 12 MONTHS PER YEAR
+									</span>
+								</p>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -777,7 +869,9 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Sanitary</h3>
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Sanitary
+								</h3>
 								<Slider {...settings}>
 									<div>
 										{/* <h3>Chalet 1</h3> */}
@@ -813,7 +907,7 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
 									Activities
 								</h3>
 								<Slider {...settings}>

@@ -162,11 +162,11 @@ const chalets = () => {
 				<section className="font-bold text-2xl container text-center py-10">
 					<h2 className="text-[#79cf00]">Nos chalets :</h2>
 					<p className="text-sm mt-5">
-						TOUT LES CHALETS SONT POURVUS D'ÉQUIPEMENT DE BASE INCLUENT BBQ VOUS
-						DEVEZ APPORTER SEULEMENT VOTRE LITERIE, OREILLÉES.
+						Tous les chalets sont pourvus d'équipement de base et possèdent un
+						BBQ. Les chalets ont l'électricité et l'eau courante (non potable).
 						<br />
-						SERVIETTES DE BAIN AINSI QUE BOUTEILLES D'EAU. LES CHALETS SONT MUNI
-						ÉLECTRICITÉ ET L'EAU COURANTE.
+						*Note : Vous devez apporter votre literie, oreiller, serviette de
+						bain et bouteille d'eau.
 					</p>
 				</section>
 
@@ -272,16 +272,16 @@ const chalets = () => {
 
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 1</h3>
-								<p className="text-xs my-5 text-center">
-									SUPERBE VUE SUR LA RIVIÈRE DU LIÈVRE ET DES QUAIS À PATIR DE
-									LA NOUVELLE TERRASSE.
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
+									Chalet 1
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Superbe terrasse avec vue sur les quais et la rivière du
+									Lièvre. Chalet rustique comprenant deux chambres avec un lit
+									double et un lit simple. Peut accueillir de 4 à 6 personnes.
 									<br />
-									CHALET RUSTIQUE COMPRENANT 2 CHAMBRES INCLUS DANS CHAQUE 1 LIT
-									DOUBLE ET 1 LIT SIMPLE PEUX ACCEUILLIR ENTRE 4 À 6 PERS.
-									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
-										DISPO DE MAI À FIN OCTOBRE.
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										DISPO DE MAI À FIN OCTOBRE
 									</span>
 								</p>
 								<Slider {...settings}>
@@ -347,16 +347,19 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 2</h3>
-								<p className="text-xs my-5 text-center">
-									BELLE GRANDE TERRASSE AVEC LA VUE SUR LA RIVIÈRE.
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
+									Chalet 2
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Belle grande terrasse avec vue sur la rivière du Lièvre.
+									Chalet rustique comprenant trois chambres. Deux chambres avec
+									un lit double et un lit simple.
 									<br />
-									CHALET RUSTIQUE COMPRENANT 3 CHAMBRES INCLUS DANS 2 CHAMBRES 1
-									LIT DOUBLE ET 1 LIT SIMPLE ET LA 3 IÈMES 2 LITS SIMPLES PEUX
-									ACCEUILLIR ENTRE 6 À 8 PERS.
+									La troisième chambre contient deux lits simples. Peut
+									accueillir de 6 à 8 personnes.
 									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
-										DISPO DE MAI À FIN OCTOBRE.
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										DISPO DE MAI À FIN OCTOBRE
 									</span>
 								</p>
 								<Slider {...settings}>
@@ -436,13 +439,15 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 3</h3>
-								<p className="text-xs my-5 text-center">
-									CHALET RUSTIQUE COMPRENANT 2 CHAMBRES INCLUS DANS CHAQUE 1 LIT
-									DOUBLE ET 1 LIT SIMPLE PEUX ACCEUILLIR ENTRE 4 À 6 PERS.
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 3
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Chalet rustique comprenant deux chambres avec un lit double et
+									un lit simple. Peut accueillir de 4 à 6 personnes.
 									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
-										DISPO DE MAI À FIN OCTOBRE.
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
+										DISPO DE MAI À FIN OCTOBRE
 									</span>
 								</p>
 								<Slider {...settings}>
@@ -508,14 +513,15 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 5</h3>
-								<p className="text-xs my-5 text-center">
-									BELLE GRANDE GALERIE.
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 5
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Chalet rustique avec terrasse comprenant deux chambres avec un
+									lit double et un lit simple. Peut accueillir de 4 à 6
+									personnes.
 									<br />
-									CHALET RUSTIQUE COMPRENANT 2 CHAMBRES INCLUS DANS CHAQUE 1 LIT
-									DOUBLE ET 1 LIT SIMPLE PEUX ACCEUILLIR ENTRE 4 À 6 PERS.
-									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
 										DISPO 12 MOIS
 									</span>
 								</p>
@@ -589,14 +595,15 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 6</h3>
-								<p className="text-xs my-5 text-center">
-									BELLE GRANDE GALERIE VUE SUR LA RIVIÈRE.
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 6
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Chalet rustique en bois rond avec belle grande terrasse et vue
+									sur la rivière du Lièvre. Une chambre avec un lit double et un
+									lit simple. Peut accueillir de 3 à 4 personnes.
 									<br />
-									CHALET RUSTIQUE BOIS ROND COMPRENANT 1 CHAMBRES 1 LIT DOUBLE
-									ET 12 LITS SIMPLES PEUX ACCEUILLIR ENTRE 3 À 4 PERS.
-									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
 										DISPO 12 MOIS PAR ANNÉE
 									</span>
 								</p>
@@ -649,15 +656,16 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 7</h3>
-								<p className="text-xs my-5 text-center">
-									BELLE GRANDE GALERIE VUE SUR LA RIVIÈRE.
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 7
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Chalet rustique en bois rond avec belle grande terrasse et vue
+									sur la rivière du Lièvre. Deux chambres avec un lit double, un
+									lit simple et un divan-lit. Peut accueillir de 5 à 8
+									personnes.
 									<br />
-									CHALET RUSTIQUE BOIS ROND COMPRENANT 2 CHAMBRES INCLUS DANS
-									CHAQUE CHAMBRE 1 LIT DOUBLE ET 1 LITS SIMPLES ET 1 DIVAN LIT
-									PEUX ACCEUILLIR ENTRE 5 À 8 PERS
-									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
 										DISPO 12 MOIS PAR ANNÉE
 									</span>
 								</p>
@@ -731,13 +739,15 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 8</h3>
-								<p className="text-xs my-5 text-center">
-									NOS DEUX CHALETS RESSENTS, CHALET RUSTIQUE COMPRENANT 2
-									CHAMBRES DANS CHAQUE CHAMBRE 1 LIT DOUBLE ET 1 LIT SIMPLE PEUX
-									ACCEUILLIR ENTRE 4 À 6 PERS
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
+									Chalet 8
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Nouveau chalet rustique avec deux chambres comprenant un lit
+									double et un lit simple chacune. Peut accueillir de 4 à 6
+									personnes.
 									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
 										DISPO 12 MOIS PAR ANNÉE
 									</span>
 								</p>
@@ -797,13 +807,15 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">Chalet 9</h3>
-								<p className="text-xs my-5 text-center">
-									NOS DEUX CHALETS RESSENTS, CHALET RUSTIQUE COMPRENANT 2
-									CHAMBRES DANS CHAQUE CHAMBRE 1 LIT DOUBLE ET 1 LIT SIMPLE PEUX
-									ACCEUILLIR ENTRE 4 À 6 PERS
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
+									Chalet 9
+								</h3>
+								<p className="text-sm mb-5 text-center">
+									Nouveau chalet rustique avec deux chambres comprenant un lit
+									double et un lit simple chacune. Peut accueillir de 4 à 6
+									personnes.
 									<br />
-									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block ">
+									<span className="font-bold bg-[#79cf00] text-white p-2 mt-2 inline-block text-xs">
 										DISPO 12 MOIS PAR ANNÉE
 									</span>
 								</p>
@@ -863,7 +875,7 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">
+								<h3 className="font-bold text-xl mt-5 mb-2  text-center">
 									Sanitaires
 								</h3>
 								<Slider {...settings}>
@@ -901,7 +913,7 @@ const chalets = () => {
 						</TabPanel>
 						<TabPanel>
 							<div className="w-[100%] md:w-[100%] centrageMaison">
-								<h3 className="font-bold text-xl my-5 text-center">
+								<h3 className="font-bold text-xl mt-5 mb-2 text-center">
 									Activités
 								</h3>
 								<Slider {...settings}>
