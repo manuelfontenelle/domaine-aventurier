@@ -83,15 +83,17 @@ const textPeche = (
 			Forfait 2 nuitées + 3 jours de pêche
 		</span>
 		<span className="font-bold text-[#ff7f00] block">
-			550.00$ +tx / Personne
+			850.00$ +tx / Personne
 		</span>
-		<br />
-		<span className="font-bold uppercase">Forfait 1 semaine</span>
+		Inclus 1 chaloupe, l'hébergement 6 personnes maximum.
+		<br /> <br />
+		<span className="font-bold uppercase">
+			Forfait 1 semaine, 6 nuitées 7 jours de pêche
+		</span>
 		<span className="font-bold text-[#ff7f00] block">
-			1100.00$ +tx / Personne
+			1800.00$ +tx / Personne
 		</span>
-		<br />
-		Hébergement inclus + Embarcation
+		Inclus 1 embarcation moteur, hébergement 6 personnes maximum.
 	</p>
 )
 

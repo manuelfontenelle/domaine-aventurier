@@ -76,14 +76,17 @@ const textOurs = (
 const textPeche = (
 	<p className="mt-2 text-md leading-6">
 		<span className="font-bold uppercase">
-			2 NIGHTS + 3 DAYS FISHING PACKAGE
+			Package 2 nights + 3 days of fishing
 		</span>
-		<span className="font-bold text-[#ff7f00] block">550.00$ +tx / Person</span>
+		<span className="font-bold text-[#ff7f00] block">850.00$ +tx / Person</span>
+		Included 1 rowboat, accommodation can accommodate up to 6 people
+		<br /> <br />
+		<span className="font-bold uppercase">
+			Package 1 week, 6 nights 7 days of fishing
+		</span>
+		<span className="font-bold text-[#ff7f00] block">1800.00 +tx / Person</span>
 		<br />
-		<span className="font-bold uppercase">1 WEEK PACKAGE</span>
-		<span className="font-bold text-[#ff7f00] block">1100.00 +tx / Person</span>
-		<br />
-		Accommodation included + Boat
+		Included 1 motor boat, accommodation for 6 people maximum.
 	</p>
 )
 
