@@ -77,11 +77,11 @@ const ContentBlock = () => {
 								forfaitTitle={"Chevreuil"}
 								id="#chevreuil"
 							/>
-							<Forfait
+							{/* <Forfait
 								forfaitImg={forfait6}
 								forfaitTitle={"Sauvagine"}
 								id="#sauvagine"
-							/>
+							/> */}
 						</div>
 
 						<div className="flex flex-col  gap-8 md:h-[190px] md:flex-row">

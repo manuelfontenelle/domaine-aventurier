@@ -75,11 +75,11 @@ const ContentBlockEn = () => {
 								forfaitTitle={"Deer"}
 								id="#chevreuil"
 							/>
-							<ForfaitEn
+							{/* <ForfaitEn
 								forfaitImg={forfait6}
 								forfaitTitle={"Waterfowl"}
 								id="#sauvagine"
-							/>
+							/> */}
 						</div>
 
 						<div className="flex flex-col  gap-8 md:h-[190px] md:flex-row">
