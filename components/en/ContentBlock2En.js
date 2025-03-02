@@ -47,8 +47,6 @@ const ContentBlock2En = () => {
 								className="w-[35px] lg:w-[35px] mr-5 mt-2"
 							></Image>
 							<p className="font-OpenSans font-bold text-white text-base md:text-lg">
-								819-767-2130
-								<br />
 								<span className="mt-1 block">
 									514-518-2643
 									<span className="text-sm md:ml-1 block md:inline-block">
@@ -62,7 +60,7 @@ const ContentBlock2En = () => {
 						<Image
 							src={logo}
 							alt="Logo Domaine Aventurier"
-							className="w-[120px] right-0 absolute  mt-[-30px] sm:mt-[-40px] sm:w-[150px] md:w-[150px] lg:w-[280px] z-20 lg:mt-[-10px] mr-5 xl:mr-0"
+							className="w-[120px] right-0 absolute  mt-[0px] sm:mt-[-40px] sm:w-[150px] md:w-[150px] lg:w-[280px] z-20 lg:mt-[-10px] mr-5 xl:mr-0"
 						></Image>
 						<span className="left-0 bottom-12 h-16 lg:w-[80%] bg-white absolute"></span>
 					</div>
