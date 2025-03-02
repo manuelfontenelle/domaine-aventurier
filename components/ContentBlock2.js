@@ -49,9 +49,9 @@ const ContentBlock2 = () => {
 								className="w-[35px] lg:w-[35px] mr-5 mt-2"
 							></Image>
 							<p className="font-OpenSans font-bold text-white text-base md:text-lg">
-								<span className="mt-1 block">
+								<span className=" block">
 									514-518-2643
-									<span className="text-sm md:ml-1 block md:inline-block">
+									<span className="text-sm  block md:block">
 										(Cellulaire : Appel / SMS)
 									</span>
 								</span>
